@@ -1,11 +1,16 @@
+variable "aws_access_key" {}
+variable "aws_secret_key" {}
+variable "aws_key_path" {}
+variable "aws_key_name" {}
+
 variable "vpc_id" {
   default = "vpc-b9c578df"
   description = "Since I'm not using the default VPC, I have to specify one"
 }
 
-variable "subnet_id" {
-  default     = "subnet-44c2e50d"
-  description = "subnet id"
+variable "region" {
+  default = "us-east-1"
+  description = "default region"
 }
 
 variable "server_port" {
@@ -14,10 +19,10 @@ variable "server_port" {
 }
 
 
-variable "list_example" {
+variable "subnet_id" {
   description = "An example of a list in Terraform"
   type        = "list"
-  default     = [1, 2, 3]
+  default     = ["subnet-44c2e50d"]
 }
 
 variable "map_example" {

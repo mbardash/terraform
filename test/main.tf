@@ -1,8 +1,8 @@
 #AWS Credentials and region
 provider "aws" {
-	access_key = "AKIAIEA4JL6DUBDFMUIQ"
-	secret_key = "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"
-	region = "us-east-1"
+	access_key = "${var.aws_access_key}"
+	secret_key = "${var.aws_secret_key}"
+	region     = "${var.region}"
 }
 
 resource "aws_launch_configuration" "example" {
@@ -23,12 +23,12 @@ resource "aws_launch_configuration" "example" {
 }
 
 resource "aws_autoscaling_group" "example"{
-    launch_configuration = "${aws_launch_configuration.example.id}"
-    availability_zones        = ["us-east-1a"]
-    vpc_zone_identifier       = ["subnet-44c2e50d"]
+    launch_configuration      = "${aws_launch_configuration.example.id}"
+#    availability_zones   = ["${data.aws_availability_zones.all.names}"]
+    vpc_zone_identifier       = ["${var.subnet_id}"]
 
-    load_balancers = ["${aws_elb.example.name}"]
-    health_check_type = "ELB"
+    load_balancers            = ["${aws_elb.example.name}"]
+    health_check_type         = "ELB"
 
     min_size  = 2
     max_size  = 10
@@ -60,9 +60,10 @@ data "aws_availability_zones" "all" {}
 
 
 resource "aws_elb" "example"{
-  name = "terraform-asg-example"
+  name                = "terraform-asg-example"
+#  availability_zones = ["${data.aws_availability_zones.all.names}"]
   security_groups     = ["${aws_security_group.elb.id}"]
-  subnets             = ["subnet-44c2e50d"]
+  subnets             = ["${var.subnet_id}"]
 
   listener {
     lb_port = 80
@@ -90,6 +91,7 @@ resource "aws_security_group" "elb" {
     protocol = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
   }
+
   egress {
     from_port = 0
     to_port = 0
@@ -97,6 +99,3 @@ resource "aws_security_group" "elb" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 }
-
-
-
