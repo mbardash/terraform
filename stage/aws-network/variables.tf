@@ -1,5 +1,5 @@
-variable "aws_access_key" {}
-variable "aws_secret_key" {}
+#variable "aws_access_key" {}
+#variable "aws_secret_key" {}
 variable "aws_key_path" {}
 variable "aws_key_name" {}
 
@@ -25,7 +25,7 @@ variable "private_subnets" {
 }
 
 variable "key_name"        { 
-	default = "Sysadmin"
+	default = "gaea"
 }
 
 variable "bastion_instance_type" { 

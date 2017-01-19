@@ -1,7 +1,7 @@
 #AWS Credentials and region
 provider "aws" {
-	access_key = "${var.aws_access_key}"
-	secret_key = "${var.aws_secret_key}"
+#	access_key = "${var.aws_access_key}"
+#	secret_key = "${var.aws_secret_key}"
 	region     = "${var.region}"
 }
 
@@ -9,7 +9,7 @@ resource "aws_launch_configuration" "example" {
   image_id               = "ami-40d28157"
   instance_type          = "t2.micro"
   security_groups        = ["${aws_security_group.instance.id}"]
-  key_name               = "Sysadmin"
+  key_name               = "gaea"
 
   user_data = <<-EOF
               #!/bin/bash

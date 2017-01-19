@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8db11059-22c1-4bc6-8b70-bbea22460d76" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/s3/main.tf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/s3/outputs.tf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/s3/terraform.tfvars" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/s3/vars.tf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aws-network/network/aws_network.tf" afterPath="$PROJECT_DIR$/aws-network/network/aws_network.tf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aws-network/network/terraform.tfvars" afterPath="$PROJECT_DIR$/aws-network/network/terraform.tfvars" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aws-network/network/variables.tf" afterPath="$PROJECT_DIR$/aws-network/network/variables.tf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/main.tf" afterPath="$PROJECT_DIR$/test/main.tf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/terraform.tfvars" afterPath="$PROJECT_DIR$/test/terraform.tfvars" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/vars.tf" afterPath="$PROJECT_DIR$/test/vars.tf" />
+    </list>
+    <ignored path="terraform.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="terraform" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="vars.tf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/s3/vars.tf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="terraform.tfvars" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/s3/terraform.tfvars">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="variables.tf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aws-network/network/variables.tf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="terraform.tfvars" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aws-network/network/terraform.tfvars">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.tf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/main.tf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+              <folding>
+                <marker date="1484799472000" expanded="true" signature="100:121" ph="${...}" />
+                <marker date="1484799472000" expanded="true" signature="138:151" ph="${...}" />
+                <marker date="1484799472000" expanded="true" signature="313:346" ph="${...}" />
+                <marker date="1484799472000" expanded="true" signature="519:537" ph="${...}" />
+                <marker date="1484799472000" expanded="true" signature="691:729" ph="${...}" />
+                <marker date="1484799472000" expanded="true" signature="761:801" ph="${...}" />
+                <marker date="1484799472000" expanded="true" signature="838:854" ph="${...}" />
+                <marker date="1484799472000" expanded="true" signature="892:915" ph="${...}" />
+                <marker date="1484799472000" expanded="true" signature="1227:1240" ph="${...}" />
+                <marker date="1484799472000" expanded="true" signature="1274:1292" ph="${...}" />
+                <marker date="1484799472000" expanded="true" signature="1313:1331" ph="${...}" />
+                <marker date="1484799472000" expanded="true" signature="1593:1633" ph="${...}" />
+                <marker date="1484799472000" expanded="true" signature="1662:1690" ph="${...}" />
+                <marker date="1484799472000" expanded="true" signature="1719:1735" ph="${...}" />
+                <marker date="1484799472000" expanded="true" signature="1815:1833" ph="${...}" />
+                <marker date="1484799472000" expanded="true" signature="1995:2013" ph="${...}" />
+                <marker date="1484799472000" expanded="true" signature="2110:2123" ph="${...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".terragrunt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aws-network/network/.terragrunt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="terraform.tfvars" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/terraform.tfvars">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aws_network.tf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aws-network/network/aws_network.tf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+              <folding>
+                <marker date="1484794218000" expanded="true" signature="237:258" ph="${...}" />
+                <marker date="1484794218000" expanded="true" signature="276:297" ph="${...}" />
+                <marker date="1484794218000" expanded="true" signature="372:385" ph="${...}" />
+                <marker date="1484794218000" expanded="true" signature="435:446" ph="${...}" />
+                <marker date="1484794218000" expanded="true" signature="462:477" ph="${...}" />
+                <marker date="1484794218000" expanded="true" signature="549:560" ph="${...}" />
+                <marker date="1484794218000" expanded="true" signature="581:601" ph="${...}" />
+                <marker date="1484794218000" expanded="true" signature="615:636" ph="${...}" />
+                <marker date="1484794218000" expanded="true" signature="650:660" ph="${...}" />
+                <marker date="1484794218000" expanded="true" signature="734:745" ph="${...}" />
+                <marker date="1484794218000" expanded="true" signature="778:798" ph="${...}" />
+                <marker date="1484794218000" expanded="true" signature="823:845" ph="${...}" />
+                <marker date="1484794218000" expanded="true" signature="870:883" ph="${...}" />
+                <marker date="1484794218000" expanded="true" signature="908:942" ph="${...}" />
+                <marker date="1484794218000" expanded="true" signature="967:982" ph="${...}" />
+                <marker date="1484794218000" expanded="true" signature="1007:1035" ph="${...}" />
+                <marker date="1484794218000" expanded="true" signature="1098:1109" ph="${...}" />
+                <marker date="1484794218000" expanded="true" signature="1138:1148" ph="${...}" />
+                <marker date="1484794218000" expanded="true" signature="1173:1207" ph="${...}" />
+                <marker date="1484794218000" expanded="true" signature="1281:1292" ph="${...}" />
+                <marker date="1484794218000" expanded="true" signature="1314:1334" ph="${...}" />
+                <marker date="1484794218000" expanded="true" signature="1348:1370" ph="${...}" />
+                <marker date="1484794218000" expanded="true" signature="1384:1394" ph="${...}" />
+                <marker date="1484794218000" expanded="true" signature="1418:1447" ph="${...}" />
+                <marker date="1484794218000" expanded="true" signature="1487:1507" ph="${...}" />
+                <marker date="1484794218000" expanded="true" signature="1540:1562" ph="${...}" />
+                <marker date="1484794218000" expanded="true" signature="1616:1650" ph="${...}" />
+                <marker date="1484794218000" expanded="true" signature="1693:1728" ph="${...}" />
+                <marker date="1484794218000" expanded="true" signature="1782:1804" ph="${...}" />
+                <marker date="1484794218000" expanded="true" signature="1847:1875" ph="${...}" />
+                <marker date="1484794218000" expanded="true" signature="1918:1945" ph="${...}" />
+                <marker date="1484794218000" expanded="true" signature="1992:2021" ph="${...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".terragrunt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/.terragrunt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vars.tf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/vars.tf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/s3/outputs.tf" />
+        <option value="$PROJECT_DIR$/test/terraform.tfvars" />
+        <option value="$PROJECT_DIR$/s3/main.tf" />
+        <option value="$PROJECT_DIR$/s3/vars.tf" />
+        <option value="$PROJECT_DIR$/s3/terraform.tfvars" />
+        <option value="$PROJECT_DIR$/aws-network/network/terraform.tfvars" />
+        <option value="$PROJECT_DIR$/aws-network/network/aws_network.tf" />
+        <option value="$PROJECT_DIR$/aws-network/network/variables.tf" />
+        <option value="$PROJECT_DIR$/test/main.tf" />
+        <option value="$PROJECT_DIR$/aws-network/network/.terragrunt" />
+        <option value="$PROJECT_DIR$/test/.terragrunt" />
+        <option value="$PROJECT_DIR$/test/vars.tf" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="237" />
+    <option name="y" value="23" />
+    <option name="width" value="1123" />
+    <option name="height" value="959" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="terraform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/aws-network" />
+      <recent name="$PROJECT_DIR$/s3" />
+      <recent name="$PROJECT_DIR$/test" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="terraform" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="terraform" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ccruntests" factoryName="Run Study Tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="terraform" />
+      <option name="studyTest" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="terraform" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="terraform" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="terraform" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="terraform" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="terraform" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="237" y="23" width="1123" height="959" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2123412" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="using subnet ids instead of availability zone, because i'm not using the default VPC" />
+    <option name="LAST_COMMIT_MESSAGE" value="using subnet ids instead of availability zone, because i'm not using the default VPC" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/s3/vars.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/main.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1484799472000" expanded="true" signature="100:121" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="138:151" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="313:346" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="519:537" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="691:729" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="761:801" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="838:854" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="892:915" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="1227:1240" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="1274:1292" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="1313:1331" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="1593:1633" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="1662:1690" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="1719:1735" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="1815:1833" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="1995:2013" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="2110:2123" ph="${...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/main.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1484799472000" expanded="true" signature="100:121" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="138:151" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="313:346" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="519:537" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="691:729" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="761:801" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="838:854" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="892:915" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="1227:1240" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="1274:1292" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="1313:1331" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="1593:1633" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="1662:1690" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="1719:1735" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="1815:1833" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="1995:2013" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="2110:2123" ph="${...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/terraform.tfstate.backup">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/outputs.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1484060077000" expanded="true" signature="35:62" ph="${...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/.terraform/terraform.tfstate.backup">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/.terraform/terraform.tfstate">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s3/outputs.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <marker date="1484143809000" expanded="true" signature="35:71" ph="${...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s3/main.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding>
+            <marker date="1484775813000" expanded="true" signature="61:82" ph="${...}" />
+            <marker date="1484775813000" expanded="true" signature="100:121" ph="${...}" />
+            <marker date="1484775813000" expanded="true" signature="138:151" ph="${...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s3/vars.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s3/terraform.tfvars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/terraform.tfvars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/main.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <marker date="1484799472000" expanded="true" signature="100:121" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="138:151" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="313:346" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="519:537" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="691:729" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="761:801" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="838:854" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="892:915" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="1227:1240" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="1274:1292" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="1313:1331" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="1593:1633" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="1662:1690" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="1719:1735" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="1815:1833" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="1995:2013" ph="${...}" />
+            <marker date="1484799472000" expanded="true" signature="2110:2123" ph="${...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws-network/.terragrunt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws-network/network/.terragrunt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws-network/network/terraform.tfvars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws-network/network/aws_network.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding>
+            <marker date="1484794218000" expanded="true" signature="237:258" ph="${...}" />
+            <marker date="1484794218000" expanded="true" signature="276:297" ph="${...}" />
+            <marker date="1484794218000" expanded="true" signature="372:385" ph="${...}" />
+            <marker date="1484794218000" expanded="true" signature="435:446" ph="${...}" />
+            <marker date="1484794218000" expanded="true" signature="462:477" ph="${...}" />
+            <marker date="1484794218000" expanded="true" signature="549:560" ph="${...}" />
+            <marker date="1484794218000" expanded="true" signature="581:601" ph="${...}" />
+            <marker date="1484794218000" expanded="true" signature="615:636" ph="${...}" />
+            <marker date="1484794218000" expanded="true" signature="650:660" ph="${...}" />
+            <marker date="1484794218000" expanded="true" signature="734:745" ph="${...}" />
+            <marker date="1484794218000" expanded="true" signature="778:798" ph="${...}" />
+            <marker date="1484794218000" expanded="true" signature="823:845" ph="${...}" />
+            <marker date="1484794218000" expanded="true" signature="870:883" ph="${...}" />
+            <marker date="1484794218000" expanded="true" signature="908:942" ph="${...}" />
+            <marker date="1484794218000" expanded="true" signature="967:982" ph="${...}" />
+            <marker date="1484794218000" expanded="true" signature="1007:1035" ph="${...}" />
+            <marker date="1484794218000" expanded="true" signature="1098:1109" ph="${...}" />
+            <marker date="1484794218000" expanded="true" signature="1138:1148" ph="${...}" />
+            <marker date="1484794218000" expanded="true" signature="1173:1207" ph="${...}" />
+            <marker date="1484794218000" expanded="true" signature="1281:1292" ph="${...}" />
+            <marker date="1484794218000" expanded="true" signature="1314:1334" ph="${...}" />
+            <marker date="1484794218000" expanded="true" signature="1348:1370" ph="${...}" />
+            <marker date="1484794218000" expanded="true" signature="1384:1394" ph="${...}" />
+            <marker date="1484794218000" expanded="true" signature="1418:1447" ph="${...}" />
+            <marker date="1484794218000" expanded="true" signature="1487:1507" ph="${...}" />
+            <marker date="1484794218000" expanded="true" signature="1540:1562" ph="${...}" />
+            <marker date="1484794218000" expanded="true" signature="1616:1650" ph="${...}" />
+            <marker date="1484794218000" expanded="true" signature="1693:1728" ph="${...}" />
+            <marker date="1484794218000" expanded="true" signature="1782:1804" ph="${...}" />
+            <marker date="1484794218000" expanded="true" signature="1847:1875" ph="${...}" />
+            <marker date="1484794218000" expanded="true" signature="1918:1945" ph="${...}" />
+            <marker date="1484794218000" expanded="true" signature="1992:2021" ph="${...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws-network/network/variables.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/vars.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/.terragrunt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
