@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8db11059-22c1-4bc6-8b70-bbea22460d76" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stage/aws-network/.terragrunt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stage/test/.terragrunt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stage/test/main.tf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stage/test/outputs.tf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stage/test/terraform.tfvars" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stage/test/vars.tf" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stage/services/.terragrunt" afterPath="$PROJECT_DIR$/stage/services/webserver-cluster/.terragrunt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stage/aws-network/.terragrunt" afterPath="$PROJECT_DIR$/stage/aws-network/.terragrunt" />
     </list>
     <ignored path="terraform.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,21 +22,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".terragrunt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stage/services/.terragrunt">
+      <file leaf-file-name=".terragrunt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stage/services/webserver-cluster/.terragrunt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".terragrunt" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".terragrunt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stage/aws-network/.terragrunt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            <state relative-caret-position="68">
+              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -68,6 +64,7 @@
         <option value="$PROJECT_DIR$/test/vars.tf" />
         <option value="$PROJECT_DIR$/stage/services/.terragrunt" />
         <option value="$PROJECT_DIR$/stage/aws-network/.terragrunt" />
+        <option value="$PROJECT_DIR$/stage/services/webserver-cluster/.terragrunt" />
       </list>
     </option>
   </component>
@@ -121,20 +118,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="terraform" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="terraform" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -143,6 +126,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/stage/services/webserver-cluster" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/stage/aws-network" />
       <recent name="$PROJECT_DIR$/aws-network" />
@@ -505,18 +491,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stage/services/.terragrunt">
+    <entry file="file://$PROJECT_DIR$/stage/aws-network/.terragrunt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="68">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stage/aws-network/.terragrunt">
+    <entry file="file://$PROJECT_DIR$/stage/services/webserver-cluster/.terragrunt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state relative-caret-position="102">
+          <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
           <folding />
         </state>
       </provider>

@@ -4,7 +4,7 @@ lock = {
   config {
     state_file_id       = "my-app"
     aws_region          = "us-east-1"
-    table_name          = "terragrunt_locks"
+    table_name          = "stage/services/webserver-cluster"
     macx_lock_retries   = 50
   }
 }
