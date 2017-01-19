@@ -15,7 +15,7 @@ remote_state = {
   config {
     encrypt = "true"
     bucket = "terraform-state-bucket_misha"
-    key = "global/test/terraform.tfstate"
+    key = "stage/network/terraform.tfstate"
     region = "us-east-1"
   }
 }

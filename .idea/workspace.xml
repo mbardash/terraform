@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8db11059-22c1-4bc6-8b70-bbea22460d76" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/s3/main.tf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/s3/outputs.tf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/s3/terraform.tfvars" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/s3/vars.tf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aws-network/network/aws_network.tf" afterPath="$PROJECT_DIR$/aws-network/network/aws_network.tf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aws-network/network/terraform.tfvars" afterPath="$PROJECT_DIR$/aws-network/network/terraform.tfvars" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aws-network/network/variables.tf" afterPath="$PROJECT_DIR$/aws-network/network/variables.tf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/main.tf" afterPath="$PROJECT_DIR$/test/main.tf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/terraform.tfvars" afterPath="$PROJECT_DIR$/test/terraform.tfvars" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/vars.tf" afterPath="$PROJECT_DIR$/test/vars.tf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stage/aws-network/.terragrunt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stage/test/.terragrunt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stage/test/main.tf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stage/test/outputs.tf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stage/test/terraform.tfvars" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stage/test/vars.tf" afterPath="" />
     </list>
     <ignored path="terraform.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,139 +26,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="vars.tf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/s3/vars.tf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="terraform.tfvars" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/s3/terraform.tfvars">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="20" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="variables.tf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aws-network/network/variables.tf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="terraform.tfvars" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aws-network/network/terraform.tfvars">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.tf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/main.tf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-              <folding>
-                <marker date="1484799472000" expanded="true" signature="100:121" ph="${...}" />
-                <marker date="1484799472000" expanded="true" signature="138:151" ph="${...}" />
-                <marker date="1484799472000" expanded="true" signature="313:346" ph="${...}" />
-                <marker date="1484799472000" expanded="true" signature="519:537" ph="${...}" />
-                <marker date="1484799472000" expanded="true" signature="691:729" ph="${...}" />
-                <marker date="1484799472000" expanded="true" signature="761:801" ph="${...}" />
-                <marker date="1484799472000" expanded="true" signature="838:854" ph="${...}" />
-                <marker date="1484799472000" expanded="true" signature="892:915" ph="${...}" />
-                <marker date="1484799472000" expanded="true" signature="1227:1240" ph="${...}" />
-                <marker date="1484799472000" expanded="true" signature="1274:1292" ph="${...}" />
-                <marker date="1484799472000" expanded="true" signature="1313:1331" ph="${...}" />
-                <marker date="1484799472000" expanded="true" signature="1593:1633" ph="${...}" />
-                <marker date="1484799472000" expanded="true" signature="1662:1690" ph="${...}" />
-                <marker date="1484799472000" expanded="true" signature="1719:1735" ph="${...}" />
-                <marker date="1484799472000" expanded="true" signature="1815:1833" ph="${...}" />
-                <marker date="1484799472000" expanded="true" signature="1995:2013" ph="${...}" />
-                <marker date="1484799472000" expanded="true" signature="2110:2123" ph="${...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name=".terragrunt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aws-network/network/.terragrunt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="terraform.tfvars" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/terraform.tfvars">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aws_network.tf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aws-network/network/aws_network.tf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-              <folding>
-                <marker date="1484794218000" expanded="true" signature="237:258" ph="${...}" />
-                <marker date="1484794218000" expanded="true" signature="276:297" ph="${...}" />
-                <marker date="1484794218000" expanded="true" signature="372:385" ph="${...}" />
-                <marker date="1484794218000" expanded="true" signature="435:446" ph="${...}" />
-                <marker date="1484794218000" expanded="true" signature="462:477" ph="${...}" />
-                <marker date="1484794218000" expanded="true" signature="549:560" ph="${...}" />
-                <marker date="1484794218000" expanded="true" signature="581:601" ph="${...}" />
-                <marker date="1484794218000" expanded="true" signature="615:636" ph="${...}" />
-                <marker date="1484794218000" expanded="true" signature="650:660" ph="${...}" />
-                <marker date="1484794218000" expanded="true" signature="734:745" ph="${...}" />
-                <marker date="1484794218000" expanded="true" signature="778:798" ph="${...}" />
-                <marker date="1484794218000" expanded="true" signature="823:845" ph="${...}" />
-                <marker date="1484794218000" expanded="true" signature="870:883" ph="${...}" />
-                <marker date="1484794218000" expanded="true" signature="908:942" ph="${...}" />
-                <marker date="1484794218000" expanded="true" signature="967:982" ph="${...}" />
-                <marker date="1484794218000" expanded="true" signature="1007:1035" ph="${...}" />
-                <marker date="1484794218000" expanded="true" signature="1098:1109" ph="${...}" />
-                <marker date="1484794218000" expanded="true" signature="1138:1148" ph="${...}" />
-                <marker date="1484794218000" expanded="true" signature="1173:1207" ph="${...}" />
-                <marker date="1484794218000" expanded="true" signature="1281:1292" ph="${...}" />
-                <marker date="1484794218000" expanded="true" signature="1314:1334" ph="${...}" />
-                <marker date="1484794218000" expanded="true" signature="1348:1370" ph="${...}" />
-                <marker date="1484794218000" expanded="true" signature="1384:1394" ph="${...}" />
-                <marker date="1484794218000" expanded="true" signature="1418:1447" ph="${...}" />
-                <marker date="1484794218000" expanded="true" signature="1487:1507" ph="${...}" />
-                <marker date="1484794218000" expanded="true" signature="1540:1562" ph="${...}" />
-                <marker date="1484794218000" expanded="true" signature="1616:1650" ph="${...}" />
-                <marker date="1484794218000" expanded="true" signature="1693:1728" ph="${...}" />
-                <marker date="1484794218000" expanded="true" signature="1782:1804" ph="${...}" />
-                <marker date="1484794218000" expanded="true" signature="1847:1875" ph="${...}" />
-                <marker date="1484794218000" expanded="true" signature="1918:1945" ph="${...}" />
-                <marker date="1484794218000" expanded="true" signature="1992:2021" ph="${...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".terragrunt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/.terragrunt">
+        <entry file="file://$PROJECT_DIR$/stage/services/.terragrunt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
               <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
@@ -171,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vars.tf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/vars.tf">
+      <file leaf-file-name=".terragrunt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stage/aws-network/.terragrunt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+            <state relative-caret-position="289">
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -201,6 +66,8 @@
         <option value="$PROJECT_DIR$/aws-network/network/.terragrunt" />
         <option value="$PROJECT_DIR$/test/.terragrunt" />
         <option value="$PROJECT_DIR$/test/vars.tf" />
+        <option value="$PROJECT_DIR$/stage/services/.terragrunt" />
+        <option value="$PROJECT_DIR$/stage/aws-network/.terragrunt" />
       </list>
     </option>
   </component>
@@ -244,6 +111,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="terraform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="terraform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="terraform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="terraform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -253,6 +144,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/stage/aws-network" />
       <recent name="$PROJECT_DIR$/aws-network" />
       <recent name="$PROJECT_DIR$/s3" />
       <recent name="$PROJECT_DIR$/test" />
@@ -465,25 +357,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1484799472000" expanded="true" signature="100:121" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="138:151" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="313:346" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="519:537" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="691:729" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="761:801" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="838:854" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="892:915" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="1227:1240" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="1274:1292" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="1313:1331" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="1593:1633" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="1662:1690" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="1719:1735" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="1815:1833" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="1995:2013" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="2110:2123" ph="${...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -491,25 +365,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1484799472000" expanded="true" signature="100:121" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="138:151" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="313:346" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="519:537" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="691:729" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="761:801" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="838:854" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="892:915" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="1227:1240" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="1274:1292" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="1313:1331" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="1593:1633" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="1662:1690" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="1719:1735" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="1815:1833" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="1995:2013" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="2110:2123" ph="${...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -525,9 +381,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1484060077000" expanded="true" signature="35:62" ph="${...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -551,9 +405,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <marker date="1484143809000" expanded="true" signature="35:71" ph="${...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -561,11 +413,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-          <folding>
-            <marker date="1484775813000" expanded="true" signature="61:82" ph="${...}" />
-            <marker date="1484775813000" expanded="true" signature="100:121" ph="${...}" />
-            <marker date="1484775813000" expanded="true" signature="138:151" ph="${...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -585,37 +433,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/terraform.tfvars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/main.tf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding>
-            <marker date="1484799472000" expanded="true" signature="100:121" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="138:151" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="313:346" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="519:537" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="691:729" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="761:801" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="838:854" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="892:915" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="1227:1240" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="1274:1292" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="1313:1331" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="1593:1633" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="1662:1690" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="1719:1735" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="1815:1833" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="1995:2013" ph="${...}" />
-            <marker date="1484799472000" expanded="true" signature="2110:2123" ph="${...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -643,47 +465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aws-network/network/aws_network.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-          <folding>
-            <marker date="1484794218000" expanded="true" signature="237:258" ph="${...}" />
-            <marker date="1484794218000" expanded="true" signature="276:297" ph="${...}" />
-            <marker date="1484794218000" expanded="true" signature="372:385" ph="${...}" />
-            <marker date="1484794218000" expanded="true" signature="435:446" ph="${...}" />
-            <marker date="1484794218000" expanded="true" signature="462:477" ph="${...}" />
-            <marker date="1484794218000" expanded="true" signature="549:560" ph="${...}" />
-            <marker date="1484794218000" expanded="true" signature="581:601" ph="${...}" />
-            <marker date="1484794218000" expanded="true" signature="615:636" ph="${...}" />
-            <marker date="1484794218000" expanded="true" signature="650:660" ph="${...}" />
-            <marker date="1484794218000" expanded="true" signature="734:745" ph="${...}" />
-            <marker date="1484794218000" expanded="true" signature="778:798" ph="${...}" />
-            <marker date="1484794218000" expanded="true" signature="823:845" ph="${...}" />
-            <marker date="1484794218000" expanded="true" signature="870:883" ph="${...}" />
-            <marker date="1484794218000" expanded="true" signature="908:942" ph="${...}" />
-            <marker date="1484794218000" expanded="true" signature="967:982" ph="${...}" />
-            <marker date="1484794218000" expanded="true" signature="1007:1035" ph="${...}" />
-            <marker date="1484794218000" expanded="true" signature="1098:1109" ph="${...}" />
-            <marker date="1484794218000" expanded="true" signature="1138:1148" ph="${...}" />
-            <marker date="1484794218000" expanded="true" signature="1173:1207" ph="${...}" />
-            <marker date="1484794218000" expanded="true" signature="1281:1292" ph="${...}" />
-            <marker date="1484794218000" expanded="true" signature="1314:1334" ph="${...}" />
-            <marker date="1484794218000" expanded="true" signature="1348:1370" ph="${...}" />
-            <marker date="1484794218000" expanded="true" signature="1384:1394" ph="${...}" />
-            <marker date="1484794218000" expanded="true" signature="1418:1447" ph="${...}" />
-            <marker date="1484794218000" expanded="true" signature="1487:1507" ph="${...}" />
-            <marker date="1484794218000" expanded="true" signature="1540:1562" ph="${...}" />
-            <marker date="1484794218000" expanded="true" signature="1616:1650" ph="${...}" />
-            <marker date="1484794218000" expanded="true" signature="1693:1728" ph="${...}" />
-            <marker date="1484794218000" expanded="true" signature="1782:1804" ph="${...}" />
-            <marker date="1484794218000" expanded="true" signature="1847:1875" ph="${...}" />
-            <marker date="1484794218000" expanded="true" signature="1918:1945" ph="${...}" />
-            <marker date="1484794218000" expanded="true" signature="1992:2021" ph="${...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aws-network/network/variables.tf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -704,6 +485,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws-network/network/aws_network.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/terraform.tfvars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stage/services/.terragrunt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stage/aws-network/.terragrunt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
           <folding />
         </state>
       </provider>
