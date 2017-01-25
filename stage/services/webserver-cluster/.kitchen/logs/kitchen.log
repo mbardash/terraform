@@ -1,0 +1,8 @@
+I, [2017-01-19T23:06:07.795192 #82180]  INFO -- Kitchen: -----> Starting Kitchen (v1.15.0)
+I, [2017-01-19T23:06:07.837871 #82180]  INFO -- Kitchen: /Users/mikhailbardash/.rvm/gems/ruby-2.2.0/gems/mixlib-shellout-2.2.7/lib/mixlib/shellout/unix.rb:338: warning: Insecure world writable dir /Users/mikhailbardash/Documents/work in PATH, mode 040777
+I, [2017-01-19T23:06:07.875096 #82180]  INFO -- Kitchen: Terraform v0.7.13
+I, [2017-01-19T23:06:07.875314 #82180]  INFO -- Kitchen: 
+I, [2017-01-19T23:06:07.875608 #82180]  INFO -- Kitchen: Your version of Terraform is out of date! The latest version
+I, [2017-01-19T23:06:07.875703 #82180]  INFO -- Kitchen: is 0.8.4. You can update by downloading from www.terraform.io
+I, [2017-01-19T23:06:08.361771 #82180]  INFO -- Kitchen: -----> Destroying <default-ubuntu-1204>...
+I, [2017-01-19T23:09:41.200247 #82180]  INFO -- Kitchen: -----> Kitchen is finished. (3m33.40s)

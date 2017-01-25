@@ -1,0 +1,140 @@
+I, [2017-01-20T15:02:44.440721 #86911]  INFO -- default-ubuntu: -----> Destroying <default-ubuntu>...
+I, [2017-01-20T15:02:44.513622 #86911]  INFO -- default-ubuntu: [0m[0m
+I, [2017-01-20T15:02:44.513939 #86911]  INFO -- default-ubuntu: module.kafka.aws_instance.kafka:
+I, [2017-01-20T15:02:44.514005 #86911]  INFO -- default-ubuntu:   id = i-0b4d0bdd567a3f3d3
+I, [2017-01-20T15:02:44.514065 #86911]  INFO -- default-ubuntu:   ami = ami-6d1c2007
+I, [2017-01-20T15:02:44.514504 #86911]  INFO -- default-ubuntu:   associate_public_ip_address = true
+I, [2017-01-20T15:02:44.514718 #86911]  INFO -- default-ubuntu:   availability_zone = us-east-1a
+I, [2017-01-20T15:02:44.514904 #86911]  INFO -- default-ubuntu:   disable_api_termination = false
+I, [2017-01-20T15:02:44.514949 #86911]  INFO -- default-ubuntu:   ebs_block_device.# = 0
+I, [2017-01-20T15:02:44.514982 #86911]  INFO -- default-ubuntu:   ebs_optimized = false
+I, [2017-01-20T15:02:44.515015 #86911]  INFO -- default-ubuntu:   ephemeral_block_device.# = 0
+I, [2017-01-20T15:02:44.515047 #86911]  INFO -- default-ubuntu:   iam_instance_profile = 
+I, [2017-01-20T15:02:44.515074 #86911]  INFO -- default-ubuntu:   instance_state = running
+I, [2017-01-20T15:02:44.515145 #86911]  INFO -- default-ubuntu:   instance_type = t2.micro
+I, [2017-01-20T15:02:44.515173 #86911]  INFO -- default-ubuntu:   key_name = gaea
+I, [2017-01-20T15:02:44.515504 #86911]  INFO -- default-ubuntu:   monitoring = false
+I, [2017-01-20T15:02:44.515539 #86911]  INFO -- default-ubuntu:   network_interface_id = eni-184f51f6
+I, [2017-01-20T15:02:44.515570 #86911]  INFO -- default-ubuntu:   private_dns = ip-10-0-1-104.ec2.internal
+I, [2017-01-20T15:02:44.515596 #86911]  INFO -- default-ubuntu:   private_ip = 10.0.1.104
+I, [2017-01-20T15:02:44.515621 #86911]  INFO -- default-ubuntu:   public_dns = ec2-54-226-196-115.compute-1.amazonaws.com
+I, [2017-01-20T15:02:44.515680 #86911]  INFO -- default-ubuntu:   public_ip = 54.226.196.115
+I, [2017-01-20T15:02:44.515706 #86911]  INFO -- default-ubuntu:   root_block_device.# = 1
+I, [2017-01-20T15:02:44.515854 #86911]  INFO -- default-ubuntu:   root_block_device.0.delete_on_termination = false
+I, [2017-01-20T15:02:44.515882 #86911]  INFO -- default-ubuntu:   root_block_device.0.iops = 0
+I, [2017-01-20T15:02:44.516222 #86911]  INFO -- default-ubuntu:   root_block_device.0.volume_size = 8
+I, [2017-01-20T15:02:44.516257 #86911]  INFO -- default-ubuntu:   root_block_device.0.volume_type = standard
+I, [2017-01-20T15:02:44.516292 #86911]  INFO -- default-ubuntu:   security_groups.# = 0
+I, [2017-01-20T15:02:44.516318 #86911]  INFO -- default-ubuntu:   source_dest_check = true
+I, [2017-01-20T15:02:44.516344 #86911]  INFO -- default-ubuntu:   subnet_id = subnet-7ef8d337
+I, [2017-01-20T15:02:44.516368 #86911]  INFO -- default-ubuntu:   tags.% = 1
+I, [2017-01-20T15:02:44.516395 #86911]  INFO -- default-ubuntu:   tags.Name = kafka-kafka
+I, [2017-01-20T15:02:44.516421 #86911]  INFO -- default-ubuntu:   tenancy = default
+I, [2017-01-20T15:02:44.516446 #86911]  INFO -- default-ubuntu:   vpc_security_group_ids.# = 1
+I, [2017-01-20T15:02:44.516475 #86911]  INFO -- default-ubuntu:   vpc_security_group_ids.3708222713 = sg-eaf62d96
+I, [2017-01-20T15:02:44.516500 #86911]  INFO -- default-ubuntu: module.kafka.aws_security_group.kafka:
+I, [2017-01-20T15:02:44.516749 #86911]  INFO -- default-ubuntu:   id = sg-eaf62d96
+I, [2017-01-20T15:02:44.516782 #86911]  INFO -- default-ubuntu:   description = Kafka security group
+I, [2017-01-20T15:02:44.516808 #86911]  INFO -- default-ubuntu:   egress.# = 1
+I, [2017-01-20T15:02:44.516834 #86911]  INFO -- default-ubuntu:   egress.482069346.cidr_blocks.# = 1
+I, [2017-01-20T15:02:44.516859 #86911]  INFO -- default-ubuntu:   egress.482069346.cidr_blocks.0 = 0.0.0.0/0
+I, [2017-01-20T15:02:44.516884 #86911]  INFO -- default-ubuntu:   egress.482069346.from_port = 0
+I, [2017-01-20T15:02:44.516915 #86911]  INFO -- default-ubuntu:   egress.482069346.prefix_list_ids.# = 0
+I, [2017-01-20T15:02:44.516941 #86911]  INFO -- default-ubuntu:   egress.482069346.protocol = -1
+I, [2017-01-20T15:02:44.517308 #86911]  INFO -- default-ubuntu:   egress.482069346.security_groups.# = 0
+I, [2017-01-20T15:02:44.517378 #86911]  INFO -- default-ubuntu:   egress.482069346.self = false
+I, [2017-01-20T15:02:44.517422 #86911]  INFO -- default-ubuntu:   egress.482069346.to_port = 0
+I, [2017-01-20T15:02:44.517455 #86911]  INFO -- default-ubuntu:   ingress.# = 2
+I, [2017-01-20T15:02:44.517489 #86911]  INFO -- default-ubuntu:   ingress.2541437006.cidr_blocks.# = 1
+I, [2017-01-20T15:02:44.517519 #86911]  INFO -- default-ubuntu:   ingress.2541437006.cidr_blocks.0 = 0.0.0.0/0
+I, [2017-01-20T15:02:44.517549 #86911]  INFO -- default-ubuntu:   ingress.2541437006.from_port = 22
+I, [2017-01-20T15:02:44.517765 #86911]  INFO -- default-ubuntu:   ingress.2541437006.protocol = tcp
+I, [2017-01-20T15:02:44.523960 #86911]  INFO -- default-ubuntu:   ingress.2541437006.security_groups.# = 0
+I, [2017-01-20T15:02:44.524003 #86911]  INFO -- default-ubuntu:   ingress.2541437006.self = false
+I, [2017-01-20T15:02:44.524029 #86911]  INFO -- default-ubuntu:   ingress.2541437006.to_port = 22
+I, [2017-01-20T15:02:44.524050 #86911]  INFO -- default-ubuntu:   ingress.3483629482.cidr_blocks.# = 1
+I, [2017-01-20T15:02:44.524218 #86911]  INFO -- default-ubuntu:   ingress.3483629482.cidr_blocks.0 = 0.0.0.0/0
+I, [2017-01-20T15:02:44.524279 #86911]  INFO -- default-ubuntu:   ingress.3483629482.from_port = 0
+I, [2017-01-20T15:02:44.524402 #86911]  INFO -- default-ubuntu:   ingress.3483629482.protocol = tcp
+I, [2017-01-20T15:02:44.524438 #86911]  INFO -- default-ubuntu:   ingress.3483629482.security_groups.# = 0
+I, [2017-01-20T15:02:44.524459 #86911]  INFO -- default-ubuntu:   ingress.3483629482.self = false
+I, [2017-01-20T15:02:44.524475 #86911]  INFO -- default-ubuntu:   ingress.3483629482.to_port = 0
+I, [2017-01-20T15:02:44.524491 #86911]  INFO -- default-ubuntu:   name = kafka-kafka
+I, [2017-01-20T15:02:44.524507 #86911]  INFO -- default-ubuntu:   owner_id = 978652754942
+I, [2017-01-20T15:02:44.524522 #86911]  INFO -- default-ubuntu:   tags.% = 1
+I, [2017-01-20T15:02:44.524537 #86911]  INFO -- default-ubuntu:   tags.Name = kafka-kafka
+I, [2017-01-20T15:02:44.524552 #86911]  INFO -- default-ubuntu:   vpc_id = vpc-c849caae
+I, [2017-01-20T15:02:44.524567 #86911]  INFO -- default-ubuntu: [0m
+I, [2017-01-20T15:02:44.524581 #86911]  INFO -- default-ubuntu: 
+I, [2017-01-20T15:02:44.524597 #86911]  INFO -- default-ubuntu: Outputs:
+I, [2017-01-20T15:02:44.524611 #86911]  INFO -- default-ubuntu: 
+I, [2017-01-20T15:02:44.524626 #86911]  INFO -- default-ubuntu: kafka_private_ip = 10.0.1.104
+I, [2017-01-20T15:02:44.524727 #86911]  INFO -- default-ubuntu: kafka_public_dns = ec2-54-226-196-115.compute-1.amazonaws.com
+I, [2017-01-20T15:02:44.524745 #86911]  INFO -- default-ubuntu: kafka_public_ip = 54.226.196.115
+I, [2017-01-20T15:02:44.524760 #86911]  INFO -- default-ubuntu: kafka_user = ubuntu[0m
+I, [2017-01-20T15:02:44.648148 #86911]  INFO -- default-ubuntu: Get: file:///Users/mikhailbardash/Documents/work/terraform/stage/services/kafka-cluster/modules (update)
+I, [2017-01-20T15:02:44.839707 #86911]  INFO -- default-ubuntu: Refreshing Terraform state in-memory prior to plan...
+I, [2017-01-20T15:02:44.840156 #86911]  INFO -- default-ubuntu: The refreshed state will be used to calculate this plan, but
+I, [2017-01-20T15:02:44.840213 #86911]  INFO -- default-ubuntu: will not be persisted to local or remote state storage.
+I, [2017-01-20T15:02:44.840248 #86911]  INFO -- default-ubuntu: 
+I, [2017-01-20T15:02:45.502345 #86911]  INFO -- default-ubuntu: [0m[1mmodule.kafka.aws_security_group.kafka: Refreshing state... (ID: sg-eaf62d96)[0m
+I, [2017-01-20T15:02:45.855455 #86911]  INFO -- default-ubuntu: [0m[1mmodule.kafka.aws_instance.kafka: Refreshing state... (ID: i-0b4d0bdd567a3f3d3)[0m
+I, [2017-01-20T15:02:46.955132 #86911]  INFO -- default-ubuntu: 
+I, [2017-01-20T15:02:46.989574 #86911]  INFO -- default-ubuntu: The Terraform execution plan has been generated and is shown below.
+I, [2017-01-20T15:02:46.989771 #86911]  INFO -- default-ubuntu: Resources are shown in alphabetical order for quick scanning. Green resources
+I, [2017-01-20T15:02:46.990027 #86911]  INFO -- default-ubuntu: will be created (or destroyed and then created if an existing resource
+I, [2017-01-20T15:02:46.990211 #86911]  INFO -- default-ubuntu: exists), yellow resources are being changed in-place, and red resources
+I, [2017-01-20T15:02:46.990293 #86911]  INFO -- default-ubuntu: will be destroyed. Cyan entries are data sources to be read.
+I, [2017-01-20T15:02:46.990331 #86911]  INFO -- default-ubuntu: 
+I, [2017-01-20T15:02:46.990450 #86911]  INFO -- default-ubuntu: Your plan was also saved to the path below. Call the "apply" subcommand
+I, [2017-01-20T15:02:46.990539 #86911]  INFO -- default-ubuntu: with this plan file and Terraform will exactly execute this execution
+I, [2017-01-20T15:02:46.990575 #86911]  INFO -- default-ubuntu: plan.
+I, [2017-01-20T15:02:46.990604 #86911]  INFO -- default-ubuntu: 
+I, [2017-01-20T15:02:46.990919 #86911]  INFO -- default-ubuntu: Path: /Users/mikhailbardash/Documents/work/terraform/stage/services/kafka-cluster/.kitchen/kitchen-terraform/default-ubuntu/terraform.tfplan
+I, [2017-01-20T15:02:46.990974 #86911]  INFO -- default-ubuntu: 
+I, [2017-01-20T15:02:46.991087 #86911]  INFO -- default-ubuntu: [31m- module.kafka.aws_instance.kafka
+I, [2017-01-20T15:02:46.991128 #86911]  INFO -- default-ubuntu: [0m[0m
+I, [2017-01-20T15:02:46.991164 #86911]  INFO -- default-ubuntu: [0m[31m- module.kafka.aws_security_group.kafka
+I, [2017-01-20T15:02:46.991348 #86911]  INFO -- default-ubuntu: [0m[0m
+I, [2017-01-20T15:02:46.991386 #86911]  INFO -- default-ubuntu: [0m
+I, [2017-01-20T15:02:46.991417 #86911]  INFO -- default-ubuntu: [0m[1mPlan:[0m 0 to add, 0 to change, 2 to destroy.[0m
+I, [2017-01-20T15:02:47.697721 #86911]  INFO -- default-ubuntu: [0m[1mmodule.kafka.aws_instance.kafka: Destroying...[21m[0m
+I, [2017-01-20T15:02:57.696949 #86911]  INFO -- default-ubuntu: [0m[1mmodule.kafka.aws_instance.kafka: Still destroying... (10s elapsed)[21m[0m
+I, [2017-01-20T15:03:07.697994 #86911]  INFO -- default-ubuntu: [0m[1mmodule.kafka.aws_instance.kafka: Still destroying... (20s elapsed)[21m[0m
+I, [2017-01-20T15:03:17.698360 #86911]  INFO -- default-ubuntu: [0m[1mmodule.kafka.aws_instance.kafka: Still destroying... (30s elapsed)[21m[0m
+I, [2017-01-20T15:03:27.699605 #86911]  INFO -- default-ubuntu: [0m[1mmodule.kafka.aws_instance.kafka: Still destroying... (40s elapsed)[21m[0m
+I, [2017-01-20T15:03:37.701028 #86911]  INFO -- default-ubuntu: [0m[1mmodule.kafka.aws_instance.kafka: Still destroying... (50s elapsed)[21m[0m
+I, [2017-01-20T15:03:47.701843 #86911]  INFO -- default-ubuntu: [0m[1mmodule.kafka.aws_instance.kafka: Still destroying... (1m0s elapsed)[21m[0m
+I, [2017-01-20T15:03:57.703365 #86911]  INFO -- default-ubuntu: [0m[1mmodule.kafka.aws_instance.kafka: Still destroying... (1m10s elapsed)[21m[0m
+I, [2017-01-20T15:03:59.958391 #86911]  INFO -- default-ubuntu: [0m[1mmodule.kafka.aws_instance.kafka: Destruction complete[21m[0m
+I, [2017-01-20T15:03:59.960319 #86911]  INFO -- default-ubuntu: [0m[1mmodule.kafka.aws_security_group.kafka: Destroying...[21m[0m
+I, [2017-01-20T15:04:00.542364 #86911]  INFO -- default-ubuntu: [0m[1mmodule.kafka.aws_security_group.kafka: Destruction complete[21m[0m
+I, [2017-01-20T15:04:00.567044 #86911]  INFO -- default-ubuntu: [0m[1m[32m
+I, [2017-01-20T15:04:00.567206 #86911]  INFO -- default-ubuntu: Apply complete! Resources: 0 added, 0 changed, 2 destroyed.[0m
+I, [2017-01-20T15:04:00.567243 #86911]  INFO -- default-ubuntu: [0m[1m[32m
+I, [2017-01-20T15:04:00.567273 #86911]  INFO -- default-ubuntu: Outputs:
+I, [2017-01-20T15:04:00.567300 #86911]  INFO -- default-ubuntu: 
+I, [2017-01-20T15:04:00.567328 #86911]  INFO -- default-ubuntu: kafka_private_ip = 10.0.1.104
+I, [2017-01-20T15:04:00.567360 #86911]  INFO -- default-ubuntu: kafka_public_dns = ec2-54-226-196-115.compute-1.amazonaws.com
+I, [2017-01-20T15:04:00.567393 #86911]  INFO -- default-ubuntu: kafka_public_ip = 54.226.196.115
+I, [2017-01-20T15:04:00.567420 #86911]  INFO -- default-ubuntu: kafka_user = ubuntu[0m
+I, [2017-01-20T15:04:00.568028 #86911]  INFO -- default-ubuntu: [0m[1m[33m
+I, [2017-01-20T15:04:00.568083 #86911]  INFO -- default-ubuntu: Experimental feature failure! Please report a bug.
+I, [2017-01-20T15:04:00.568121 #86911]  INFO -- default-ubuntu: 
+I, [2017-01-20T15:04:00.568210 #86911]  INFO -- default-ubuntu: This is not an error. Your Terraform operation completed successfully.
+I, [2017-01-20T15:04:00.569510 #86911]  INFO -- default-ubuntu: Your real infrastructure is unaffected by this message.
+I, [2017-01-20T15:04:00.569634 #86911]  INFO -- default-ubuntu: 
+I, [2017-01-20T15:04:00.569702 #86911]  INFO -- default-ubuntu: [0m[33mWhile running, Terraform sometimes tests experimental features in the
+I, [2017-01-20T15:04:00.569918 #86911]  INFO -- default-ubuntu: background. These features cannot affect real state and never touch
+I, [2017-01-20T15:04:00.570132 #86911]  INFO -- default-ubuntu: real infrastructure. If the features work properly, you see nothing.
+I, [2017-01-20T15:04:00.570179 #86911]  INFO -- default-ubuntu: If the features fail, this message appears.
+I, [2017-01-20T15:04:00.570213 #86911]  INFO -- default-ubuntu: 
+I, [2017-01-20T15:04:00.570252 #86911]  INFO -- default-ubuntu: You can report an issue at: https://github.com/hashicorp/terraform/issues
+I, [2017-01-20T15:04:00.570287 #86911]  INFO -- default-ubuntu: 
+I, [2017-01-20T15:04:00.570319 #86911]  INFO -- default-ubuntu: The failure was written to "terraform-error-1484942640.log". Please
+I, [2017-01-20T15:04:00.570351 #86911]  INFO -- default-ubuntu: double check this file contains no sensitive information and report
+I, [2017-01-20T15:04:00.570386 #86911]  INFO -- default-ubuntu: it with your issue.
+I, [2017-01-20T15:04:00.570414 #86911]  INFO -- default-ubuntu: 
+I, [2017-01-20T15:04:00.570444 #86911]  INFO -- default-ubuntu: This is not an error. Your terraform operation completed successfully
+I, [2017-01-20T15:04:00.570479 #86911]  INFO -- default-ubuntu: and your real infrastructure is unaffected by this message.[0m
+I, [2017-01-20T15:04:00.598946 #86911]  INFO -- default-ubuntu: Finished destroying <default-ubuntu> (1m16.16s).

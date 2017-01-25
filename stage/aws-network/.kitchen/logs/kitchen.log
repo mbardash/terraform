@@ -1,0 +1,32 @@
+I, [2017-01-20T12:03:42.453960 #84554]  INFO -- Kitchen: -----> Starting Kitchen (v1.15.0)
+E, [2017-01-20T12:03:42.454967 #84554] ERROR -- Kitchen: ------Exception-------
+E, [2017-01-20T12:03:42.455026 #84554] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2017-01-20T12:03:42.455065 #84554] ERROR -- Kitchen: Message: Kitchen YAML file /Users/mikhailbardash/Documents/work/terraform/stage/aws-network/.kitchen.yml does not exist.
+E, [2017-01-20T12:03:42.455100 #84554] ERROR -- Kitchen: ----------------------
+E, [2017-01-20T12:03:42.455129 #84554] ERROR -- Kitchen: ------Backtrace-------
+E, [2017-01-20T12:03:42.455159 #84554] ERROR -- Kitchen: /Users/mikhailbardash/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.15.0/lib/kitchen/loader/yaml.rb:71:in `read'
+E, [2017-01-20T12:03:42.455187 #84554] ERROR -- Kitchen: /Users/mikhailbardash/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.15.0/lib/kitchen/config.rb:152:in `data'
+E, [2017-01-20T12:03:42.455214 #84554] ERROR -- Kitchen: /Users/mikhailbardash/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.15.0/lib/kitchen/config.rb:131:in `suites'
+E, [2017-01-20T12:03:42.455230 #84554] ERROR -- Kitchen: /Users/mikhailbardash/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.15.0/lib/kitchen/config.rb:182:in `filter_instances'
+E, [2017-01-20T12:03:42.455247 #84554] ERROR -- Kitchen: /Users/mikhailbardash/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.15.0/lib/kitchen/config.rb:141:in `build_instances'
+E, [2017-01-20T12:03:42.455262 #84554] ERROR -- Kitchen: /Users/mikhailbardash/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.15.0/lib/kitchen/config.rb:117:in `instances'
+E, [2017-01-20T12:03:42.455274 #84554] ERROR -- Kitchen: /Users/mikhailbardash/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.15.0/lib/kitchen/command.rb:112:in `filtered_instances'
+E, [2017-01-20T12:03:42.455287 #84554] ERROR -- Kitchen: /Users/mikhailbardash/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.15.0/lib/kitchen/command.rb:142:in `parse_subcommand'
+E, [2017-01-20T12:03:42.455301 #84554] ERROR -- Kitchen: /Users/mikhailbardash/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.15.0/lib/kitchen/command/action.rb:35:in `block in call'
+E, [2017-01-20T12:03:42.455313 #84554] ERROR -- Kitchen: /Users/mikhailbardash/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/benchmark.rb:288:in `measure'
+E, [2017-01-20T12:03:42.455326 #84554] ERROR -- Kitchen: /Users/mikhailbardash/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.15.0/lib/kitchen/command/action.rb:34:in `call'
+E, [2017-01-20T12:03:42.455379 #84554] ERROR -- Kitchen: /Users/mikhailbardash/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.15.0/lib/kitchen/cli.rb:53:in `perform'
+E, [2017-01-20T12:03:42.455437 #84554] ERROR -- Kitchen: /Users/mikhailbardash/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.15.0/lib/kitchen/cli.rb:187:in `block (2 levels) in <class:CLI>'
+E, [2017-01-20T12:03:42.455454 #84554] ERROR -- Kitchen: /Users/mikhailbardash/.rvm/gems/ruby-2.2.0/gems/thor-0.19.4/lib/thor/command.rb:27:in `run'
+E, [2017-01-20T12:03:42.455467 #84554] ERROR -- Kitchen: /Users/mikhailbardash/.rvm/gems/ruby-2.2.0/gems/thor-0.19.4/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2017-01-20T12:03:42.455480 #84554] ERROR -- Kitchen: /Users/mikhailbardash/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.15.0/lib/kitchen/cli.rb:334:in `invoke_task'
+E, [2017-01-20T12:03:42.455493 #84554] ERROR -- Kitchen: /Users/mikhailbardash/.rvm/gems/ruby-2.2.0/gems/thor-0.19.4/lib/thor.rb:369:in `dispatch'
+E, [2017-01-20T12:03:42.455504 #84554] ERROR -- Kitchen: /Users/mikhailbardash/.rvm/gems/ruby-2.2.0/gems/thor-0.19.4/lib/thor/base.rb:444:in `start'
+E, [2017-01-20T12:03:42.455516 #84554] ERROR -- Kitchen: /Users/mikhailbardash/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.15.0/bin/kitchen:13:in `block in <top (required)>'
+E, [2017-01-20T12:03:42.455529 #84554] ERROR -- Kitchen: /Users/mikhailbardash/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.15.0/lib/kitchen/errors.rb:171:in `with_friendly_errors'
+E, [2017-01-20T12:03:42.455541 #84554] ERROR -- Kitchen: /Users/mikhailbardash/.rvm/gems/ruby-2.2.0/gems/test-kitchen-1.15.0/bin/kitchen:13:in `<top (required)>'
+E, [2017-01-20T12:03:42.455552 #84554] ERROR -- Kitchen: /Users/mikhailbardash/.rvm/gems/ruby-2.2.0/bin/kitchen:22:in `load'
+E, [2017-01-20T12:03:42.455578 #84554] ERROR -- Kitchen: /Users/mikhailbardash/.rvm/gems/ruby-2.2.0/bin/kitchen:22:in `<main>'
+E, [2017-01-20T12:03:42.455593 #84554] ERROR -- Kitchen: /Users/mikhailbardash/.rvm/gems/ruby-2.2.0/bin/ruby_executable_hooks:15:in `eval'
+E, [2017-01-20T12:03:42.455606 #84554] ERROR -- Kitchen: /Users/mikhailbardash/.rvm/gems/ruby-2.2.0/bin/ruby_executable_hooks:15:in `<main>'
+E, [2017-01-20T12:03:42.455617 #84554] ERROR -- Kitchen: ----End Backtrace-----

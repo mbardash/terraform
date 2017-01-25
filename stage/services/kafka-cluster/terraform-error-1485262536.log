@@ -1,0 +1,34 @@
+1 error(s) occurred:
+
+* apply operation: Real and shadow states do not match! Real state:
+
+<no state>
+Outputs:
+
+kafka_private_ip = 10.0.1.101
+kafka_public_dns = ec2-52-201-253-251.compute-1.amazonaws.com
+kafka_public_ip = 52.201.253.251
+kafka_user = ubuntu
+
+module.kafka:
+  <no state>
+  Outputs:
+
+  private_ip = 10.0.1.101
+  public_dns = ec2-52-201-253-251.compute-1.amazonaws.com
+  public_ip = 52.201.253.251
+  user = ubuntu
+
+Shadow state:
+
+<no state>
+Outputs:
+
+kafka_user = ubuntu
+
+module.kafka:
+  <no state>
+  Outputs:
+
+  user = ubuntu
+

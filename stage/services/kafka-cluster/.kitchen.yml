@@ -1,0 +1,27 @@
+---
+driver:
+  name: terraform
+
+provisioner:
+  name: terraform
+
+transport:
+  name: ssh
+  ssh_key: /Users/mikhailbardash/.ssh/id_rsa
+
+platforms:
+  - name: centos
+
+verifier:
+  name: terraform
+  format: doc
+  groups:
+  - name: kafka
+    tests:
+      - security_groups
+      -
+    hostnames: kafka_public_dns
+    username: centos
+
+suites:
+  - name: default

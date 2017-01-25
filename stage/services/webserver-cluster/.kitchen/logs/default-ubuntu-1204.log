@@ -1,0 +1,186 @@
+I, [2017-01-19T23:06:08.361835 #82180]  INFO -- default-ubuntu-1204: -----> Destroying <default-ubuntu-1204>...
+I, [2017-01-19T23:06:08.369573 #82180]  INFO -- default-ubuntu-1204: /Users/mikhailbardash/.rvm/gems/ruby-2.2.0/gems/mixlib-shellout-2.2.7/lib/mixlib/shellout/unix.rb:338: warning: Insecure world writable dir /Users/mikhailbardash/Documents/work in PATH, mode 040777
+I, [2017-01-19T23:06:08.407126 #82180]  INFO -- default-ubuntu-1204: [0maws_autoscaling_group.example:
+I, [2017-01-19T23:06:08.407210 #82180]  INFO -- default-ubuntu-1204:   id = tf-asg-20170120035602036473326dbu
+I, [2017-01-19T23:06:08.407244 #82180]  INFO -- default-ubuntu-1204:   arn = arn:aws:autoscaling:us-east-1:978652754942:autoScalingGroup:14a47ad2-c9ef-41fd-8d30-b176c03109f7:autoScalingGroupName/tf-asg-20170120035602036473326dbu
+I, [2017-01-19T23:06:08.407276 #82180]  INFO -- default-ubuntu-1204:   availability_zones.# = 1
+I, [2017-01-19T23:06:08.407304 #82180]  INFO -- default-ubuntu-1204:   availability_zones.3569565595 = us-east-1a
+I, [2017-01-19T23:06:08.407476 #82180]  INFO -- default-ubuntu-1204:   default_cooldown = 300
+I, [2017-01-19T23:06:08.407511 #82180]  INFO -- default-ubuntu-1204:   desired_capacity = 2
+I, [2017-01-19T23:06:08.407579 #82180]  INFO -- default-ubuntu-1204:   force_delete = false
+I, [2017-01-19T23:06:08.407665 #82180]  INFO -- default-ubuntu-1204:   health_check_grace_period = 300
+I, [2017-01-19T23:06:08.407699 #82180]  INFO -- default-ubuntu-1204:   health_check_type = ELB
+I, [2017-01-19T23:06:08.408430 #82180]  INFO -- default-ubuntu-1204:   launch_configuration = terraform-20170120035558628153245mrj
+I, [2017-01-19T23:06:08.408480 #82180]  INFO -- default-ubuntu-1204:   load_balancers.# = 1
+I, [2017-01-19T23:06:08.408511 #82180]  INFO -- default-ubuntu-1204:   load_balancers.3603464733 = terraform-asg-example
+I, [2017-01-19T23:06:08.408546 #82180]  INFO -- default-ubuntu-1204:   max_size = 10
+I, [2017-01-19T23:06:08.408574 #82180]  INFO -- default-ubuntu-1204:   metrics_granularity = 1Minute
+I, [2017-01-19T23:06:08.408600 #82180]  INFO -- default-ubuntu-1204:   min_size = 2
+I, [2017-01-19T23:06:08.408626 #82180]  INFO -- default-ubuntu-1204:   name = tf-asg-20170120035602036473326dbu
+I, [2017-01-19T23:06:08.408651 #82180]  INFO -- default-ubuntu-1204:   placement_group = 
+I, [2017-01-19T23:06:08.408676 #82180]  INFO -- default-ubuntu-1204:   protect_from_scale_in = false
+I, [2017-01-19T23:06:08.408703 #82180]  INFO -- default-ubuntu-1204:   tag.# = 1
+I, [2017-01-19T23:06:08.408996 #82180]  INFO -- default-ubuntu-1204:   tag.4170447404.key = Name
+I, [2017-01-19T23:06:08.409031 #82180]  INFO -- default-ubuntu-1204:   tag.4170447404.propagate_at_launch = true
+I, [2017-01-19T23:06:08.409130 #82180]  INFO -- default-ubuntu-1204:   tag.4170447404.value = terraform-asg-example
+I, [2017-01-19T23:06:08.409163 #82180]  INFO -- default-ubuntu-1204:   target_group_arns.# = 0
+I, [2017-01-19T23:06:08.409194 #82180]  INFO -- default-ubuntu-1204:   termination_policies.# = 0
+I, [2017-01-19T23:06:08.409224 #82180]  INFO -- default-ubuntu-1204:   vpc_zone_identifier.# = 1
+I, [2017-01-19T23:06:08.409251 #82180]  INFO -- default-ubuntu-1204:   vpc_zone_identifier.2521153049 = subnet-d349619a
+I, [2017-01-19T23:06:08.409281 #82180]  INFO -- default-ubuntu-1204:   wait_for_capacity_timeout = 10m
+I, [2017-01-19T23:06:08.409311 #82180]  INFO -- default-ubuntu-1204: aws_elb.example:
+I, [2017-01-19T23:06:08.409528 #82180]  INFO -- default-ubuntu-1204:   id = terraform-asg-example
+I, [2017-01-19T23:06:08.409566 #82180]  INFO -- default-ubuntu-1204:   access_logs.# = 0
+I, [2017-01-19T23:06:08.409599 #82180]  INFO -- default-ubuntu-1204:   availability_zones.# = 1
+I, [2017-01-19T23:06:08.409635 #82180]  INFO -- default-ubuntu-1204:   availability_zones.3569565595 = us-east-1a
+I, [2017-01-19T23:06:08.409666 #82180]  INFO -- default-ubuntu-1204:   connection_draining = false
+I, [2017-01-19T23:06:08.409696 #82180]  INFO -- default-ubuntu-1204:   connection_draining_timeout = 300
+I, [2017-01-19T23:06:08.409727 #82180]  INFO -- default-ubuntu-1204:   cross_zone_load_balancing = true
+I, [2017-01-19T23:06:08.411944 #82180]  INFO -- default-ubuntu-1204:   dns_name = terraform-asg-example-1152806881.us-east-1.elb.amazonaws.com
+I, [2017-01-19T23:06:08.412018 #82180]  INFO -- default-ubuntu-1204:   health_check.# = 1
+I, [2017-01-19T23:06:08.412056 #82180]  INFO -- default-ubuntu-1204:   health_check.0.healthy_threshold = 2
+I, [2017-01-19T23:06:08.412089 #82180]  INFO -- default-ubuntu-1204:   health_check.0.interval = 30
+I, [2017-01-19T23:06:08.412125 #82180]  INFO -- default-ubuntu-1204:   health_check.0.target = HTTP:8080/
+I, [2017-01-19T23:06:08.412157 #82180]  INFO -- default-ubuntu-1204:   health_check.0.timeout = 3
+I, [2017-01-19T23:06:08.412188 #82180]  INFO -- default-ubuntu-1204:   health_check.0.unhealthy_threshold = 2
+I, [2017-01-19T23:06:08.412218 #82180]  INFO -- default-ubuntu-1204:   idle_timeout = 60
+I, [2017-01-19T23:06:08.412247 #82180]  INFO -- default-ubuntu-1204:   instances.# = 0
+I, [2017-01-19T23:06:08.412281 #82180]  INFO -- default-ubuntu-1204:   internal = false
+I, [2017-01-19T23:06:08.412318 #82180]  INFO -- default-ubuntu-1204:   listener.# = 1
+I, [2017-01-19T23:06:08.412346 #82180]  INFO -- default-ubuntu-1204:   listener.3931999347.instance_port = 8080
+I, [2017-01-19T23:06:08.412373 #82180]  INFO -- default-ubuntu-1204:   listener.3931999347.instance_protocol = http
+I, [2017-01-19T23:06:08.412401 #82180]  INFO -- default-ubuntu-1204:   listener.3931999347.lb_port = 80
+I, [2017-01-19T23:06:08.412429 #82180]  INFO -- default-ubuntu-1204:   listener.3931999347.lb_protocol = http
+I, [2017-01-19T23:06:08.412469 #82180]  INFO -- default-ubuntu-1204:   listener.3931999347.ssl_certificate_id = 
+I, [2017-01-19T23:06:08.412495 #82180]  INFO -- default-ubuntu-1204:   name = terraform-asg-example
+I, [2017-01-19T23:06:08.412520 #82180]  INFO -- default-ubuntu-1204:   security_groups.# = 1
+I, [2017-01-19T23:06:08.412547 #82180]  INFO -- default-ubuntu-1204:   security_groups.1034465794 = sg-777ea00b
+I, [2017-01-19T23:06:08.412573 #82180]  INFO -- default-ubuntu-1204:   source_security_group = 978652754942/terraform-example-elb
+I, [2017-01-19T23:06:08.413161 #82180]  INFO -- default-ubuntu-1204:   source_security_group_id = sg-777ea00b
+I, [2017-01-19T23:06:08.413204 #82180]  INFO -- default-ubuntu-1204:   subnets.# = 1
+I, [2017-01-19T23:06:08.413234 #82180]  INFO -- default-ubuntu-1204:   subnets.2521153049 = subnet-d349619a
+I, [2017-01-19T23:06:08.413265 #82180]  INFO -- default-ubuntu-1204:   tags.% = 0
+I, [2017-01-19T23:06:08.413293 #82180]  INFO -- default-ubuntu-1204:   zone_id = Z35SXDOTRQ7X7K
+I, [2017-01-19T23:06:08.413321 #82180]  INFO -- default-ubuntu-1204: aws_launch_configuration.example:
+I, [2017-01-19T23:06:08.413348 #82180]  INFO -- default-ubuntu-1204:   id = terraform-20170120035558628153245mrj
+I, [2017-01-19T23:06:08.413375 #82180]  INFO -- default-ubuntu-1204:   associate_public_ip_address = false
+I, [2017-01-19T23:06:08.413401 #82180]  INFO -- default-ubuntu-1204:   ebs_block_device.# = 0
+I, [2017-01-19T23:06:08.413433 #82180]  INFO -- default-ubuntu-1204:   ebs_optimized = false
+I, [2017-01-19T23:06:08.413458 #82180]  INFO -- default-ubuntu-1204:   enable_monitoring = true
+I, [2017-01-19T23:06:08.413485 #82180]  INFO -- default-ubuntu-1204:   ephemeral_block_device.# = 0
+I, [2017-01-19T23:06:08.413510 #82180]  INFO -- default-ubuntu-1204:   iam_instance_profile = 
+I, [2017-01-19T23:06:08.413535 #82180]  INFO -- default-ubuntu-1204:   image_id = ami-40d28157
+I, [2017-01-19T23:06:08.413574 #82180]  INFO -- default-ubuntu-1204:   instance_type = t2.micro
+I, [2017-01-19T23:06:08.413613 #82180]  INFO -- default-ubuntu-1204:   key_name = gaea
+I, [2017-01-19T23:06:08.413643 #82180]  INFO -- default-ubuntu-1204:   name = terraform-20170120035558628153245mrj
+I, [2017-01-19T23:06:08.413671 #82180]  INFO -- default-ubuntu-1204:   root_block_device.# = 0
+I, [2017-01-19T23:06:08.413697 #82180]  INFO -- default-ubuntu-1204:   security_groups.# = 1
+I, [2017-01-19T23:06:08.414146 #82180]  INFO -- default-ubuntu-1204:   security_groups.3072008717 = sg-717ea00d
+I, [2017-01-19T23:06:08.414205 #82180]  INFO -- default-ubuntu-1204:   spot_price = 
+I, [2017-01-19T23:06:08.414237 #82180]  INFO -- default-ubuntu-1204:   user_data = 4430fd6498339061effa6d27ccf341a1e94569d7
+I, [2017-01-19T23:06:08.414265 #82180]  INFO -- default-ubuntu-1204:   vpc_classic_link_id = 
+I, [2017-01-19T23:06:08.414292 #82180]  INFO -- default-ubuntu-1204:   vpc_classic_link_security_groups.# = 0
+I, [2017-01-19T23:06:08.414319 #82180]  INFO -- default-ubuntu-1204: aws_security_group.elb:
+I, [2017-01-19T23:06:08.414345 #82180]  INFO -- default-ubuntu-1204:   id = sg-777ea00b
+I, [2017-01-19T23:06:08.414374 #82180]  INFO -- default-ubuntu-1204:   description = Managed by Terraform
+I, [2017-01-19T23:06:08.414400 #82180]  INFO -- default-ubuntu-1204:   egress.# = 0
+I, [2017-01-19T23:06:08.414426 #82180]  INFO -- default-ubuntu-1204:   ingress.# = 0
+I, [2017-01-19T23:06:08.414454 #82180]  INFO -- default-ubuntu-1204:   name = terraform-example-elb
+I, [2017-01-19T23:06:08.414482 #82180]  INFO -- default-ubuntu-1204:   owner_id = 978652754942
+I, [2017-01-19T23:06:08.414508 #82180]  INFO -- default-ubuntu-1204:   tags.% = 0
+I, [2017-01-19T23:06:08.414534 #82180]  INFO -- default-ubuntu-1204:   vpc_id = vpc-990081ff
+I, [2017-01-19T23:06:08.414563 #82180]  INFO -- default-ubuntu-1204: aws_security_group.instance:
+I, [2017-01-19T23:06:08.414589 #82180]  INFO -- default-ubuntu-1204:   id = sg-717ea00d
+I, [2017-01-19T23:06:08.414616 #82180]  INFO -- default-ubuntu-1204:   description = Managed by Terraform
+I, [2017-01-19T23:06:08.414646 #82180]  INFO -- default-ubuntu-1204:   egress.# = 0
+I, [2017-01-19T23:06:08.414672 #82180]  INFO -- default-ubuntu-1204:   ingress.# = 0
+I, [2017-01-19T23:06:08.415401 #82180]  INFO -- default-ubuntu-1204:   name = terraform-example-instance
+I, [2017-01-19T23:06:08.415442 #82180]  INFO -- default-ubuntu-1204:   owner_id = 978652754942
+I, [2017-01-19T23:06:08.415468 #82180]  INFO -- default-ubuntu-1204:   tags.% = 0
+I, [2017-01-19T23:06:08.415492 #82180]  INFO -- default-ubuntu-1204:   vpc_id = vpc-990081ff
+I, [2017-01-19T23:06:08.415520 #82180]  INFO -- default-ubuntu-1204: data.aws_availability_zones.all:
+I, [2017-01-19T23:06:08.415544 #82180]  INFO -- default-ubuntu-1204:   id = 2017-01-20 03:55:54.879166959 +0000 UTC
+I, [2017-01-19T23:06:08.415565 #82180]  INFO -- default-ubuntu-1204:   names.# = 4
+I, [2017-01-19T23:06:08.415587 #82180]  INFO -- default-ubuntu-1204:   names.0 = us-east-1a
+I, [2017-01-19T23:06:08.415640 #82180]  INFO -- default-ubuntu-1204:   names.1 = us-east-1b
+I, [2017-01-19T23:06:08.415664 #82180]  INFO -- default-ubuntu-1204:   names.2 = us-east-1d
+I, [2017-01-19T23:06:08.415680 #82180]  INFO -- default-ubuntu-1204:   names.3 = us-east-1e
+I, [2017-01-19T23:06:08.415698 #82180]  INFO -- default-ubuntu-1204: [0m
+I, [2017-01-19T23:06:08.415713 #82180]  INFO -- default-ubuntu-1204: 
+I, [2017-01-19T23:06:08.415729 #82180]  INFO -- default-ubuntu-1204: Outputs:
+I, [2017-01-19T23:06:08.415745 #82180]  INFO -- default-ubuntu-1204: 
+I, [2017-01-19T23:06:08.415759 #82180]  INFO -- default-ubuntu-1204: elb_dns_name = terraform-asg-example-1152806881.us-east-1.elb.amazonaws.com
+I, [2017-01-19T23:06:08.415775 #82180]  INFO -- default-ubuntu-1204: elb_instances = [][0m
+I, [2017-01-19T23:06:08.435967 #82180]  INFO -- default-ubuntu-1204: /Users/mikhailbardash/.rvm/gems/ruby-2.2.0/gems/mixlib-shellout-2.2.7/lib/mixlib/shellout/unix.rb:338: warning: Insecure world writable dir /Users/mikhailbardash/Documents/work in PATH, mode 040777
+I, [2017-01-19T23:06:08.503769 #82180]  INFO -- default-ubuntu-1204: /Users/mikhailbardash/.rvm/gems/ruby-2.2.0/gems/mixlib-shellout-2.2.7/lib/mixlib/shellout/unix.rb:338: warning: Insecure world writable dir /Users/mikhailbardash/Documents/work in PATH, mode 040777
+I, [2017-01-19T23:06:08.565078 #82180]  INFO -- default-ubuntu-1204: /Users/mikhailbardash/.rvm/gems/ruby-2.2.0/gems/mixlib-shellout-2.2.7/lib/mixlib/shellout/unix.rb:338: warning: Insecure world writable dir /Users/mikhailbardash/Documents/work in PATH, mode 040777
+I, [2017-01-19T23:06:08.663800 #82180]  INFO -- default-ubuntu-1204: Refreshing Terraform state in-memory prior to plan...
+I, [2017-01-19T23:06:08.663977 #82180]  INFO -- default-ubuntu-1204: The refreshed state will be used to calculate this plan, but
+I, [2017-01-19T23:06:08.664078 #82180]  INFO -- default-ubuntu-1204: will not be persisted to local or remote state storage.
+I, [2017-01-19T23:06:08.664121 #82180]  INFO -- default-ubuntu-1204: 
+I, [2017-01-19T23:06:09.282440 #82180]  INFO -- default-ubuntu-1204: [0m[1maws_security_group.elb: Refreshing state... (ID: sg-777ea00b)[0m
+I, [2017-01-19T23:06:09.282530 #82180]  INFO -- default-ubuntu-1204: [0m[1maws_security_group.instance: Refreshing state... (ID: sg-717ea00d)[0m
+I, [2017-01-19T23:06:09.284324 #82180]  INFO -- default-ubuntu-1204: [0m[1mdata.aws_availability_zones.all: Refreshing state...[0m
+I, [2017-01-19T23:06:09.622237 #82180]  INFO -- default-ubuntu-1204: [0m[1maws_elb.example: Refreshing state... (ID: terraform-asg-example)[0m
+I, [2017-01-19T23:06:09.651923 #82180]  INFO -- default-ubuntu-1204: [0m[1maws_launch_configuration.example: Refreshing state... (ID: terraform-20170120035558628153245mrj)[0m
+I, [2017-01-19T23:06:10.570801 #82180]  INFO -- default-ubuntu-1204: [0m[1maws_autoscaling_group.example: Refreshing state... (ID: tf-asg-20170120035602036473326dbu)[0m
+I, [2017-01-19T23:06:10.828826 #82180]  INFO -- default-ubuntu-1204: 
+I, [2017-01-19T23:06:10.857367 #82180]  INFO -- default-ubuntu-1204: The Terraform execution plan has been generated and is shown below.
+I, [2017-01-19T23:06:10.857527 #82180]  INFO -- default-ubuntu-1204: Resources are shown in alphabetical order for quick scanning. Green resources
+I, [2017-01-19T23:06:10.857622 #82180]  INFO -- default-ubuntu-1204: will be created (or destroyed and then created if an existing resource
+I, [2017-01-19T23:06:10.857710 #82180]  INFO -- default-ubuntu-1204: exists), yellow resources are being changed in-place, and red resources
+I, [2017-01-19T23:06:10.857830 #82180]  INFO -- default-ubuntu-1204: will be destroyed. Cyan entries are data sources to be read.
+I, [2017-01-19T23:06:10.857867 #82180]  INFO -- default-ubuntu-1204: 
+I, [2017-01-19T23:06:10.858071 #82180]  INFO -- default-ubuntu-1204: Your plan was also saved to the path below. Call the "apply" subcommand
+I, [2017-01-19T23:06:10.858109 #82180]  INFO -- default-ubuntu-1204: with this plan file and Terraform will exactly execute this execution
+I, [2017-01-19T23:06:10.858187 #82180]  INFO -- default-ubuntu-1204: plan.
+I, [2017-01-19T23:06:10.858216 #82180]  INFO -- default-ubuntu-1204: 
+I, [2017-01-19T23:06:10.858560 #82180]  INFO -- default-ubuntu-1204: Path: /Users/mikhailbardash/Documents/work/terraform/stage/services/webserver-cluster/.kitchen/kitchen-terraform/default-ubuntu-1204/terraform.tfplan
+I, [2017-01-19T23:06:10.858615 #82180]  INFO -- default-ubuntu-1204: 
+I, [2017-01-19T23:06:10.858658 #82180]  INFO -- default-ubuntu-1204: [31m- aws_autoscaling_group.example
+I, [2017-01-19T23:06:10.858694 #82180]  INFO -- default-ubuntu-1204: [0m[0m
+I, [2017-01-19T23:06:10.858727 #82180]  INFO -- default-ubuntu-1204: [0m[31m- aws_elb.example
+I, [2017-01-19T23:06:10.858760 #82180]  INFO -- default-ubuntu-1204: [0m[0m
+I, [2017-01-19T23:06:10.858962 #82180]  INFO -- default-ubuntu-1204: [0m[31m- aws_launch_configuration.example
+I, [2017-01-19T23:06:10.859001 #82180]  INFO -- default-ubuntu-1204: [0m[0m
+I, [2017-01-19T23:06:10.859031 #82180]  INFO -- default-ubuntu-1204: [0m[31m- aws_security_group.elb
+I, [2017-01-19T23:06:10.859063 #82180]  INFO -- default-ubuntu-1204: [0m[0m
+I, [2017-01-19T23:06:10.859090 #82180]  INFO -- default-ubuntu-1204: [0m[31m- aws_security_group.instance
+I, [2017-01-19T23:06:10.859115 #82180]  INFO -- default-ubuntu-1204: [0m[0m
+I, [2017-01-19T23:06:10.860518 #82180]  INFO -- default-ubuntu-1204: [0m[31m- data.aws_availability_zones.all
+I, [2017-01-19T23:06:10.860603 #82180]  INFO -- default-ubuntu-1204: [0m[0m
+I, [2017-01-19T23:06:10.860640 #82180]  INFO -- default-ubuntu-1204: [0m
+I, [2017-01-19T23:06:10.860872 #82180]  INFO -- default-ubuntu-1204: [0m[1mPlan:[0m 0 to add, 0 to change, 5 to destroy.[0m
+I, [2017-01-19T23:06:10.887561 #82180]  INFO -- default-ubuntu-1204: /Users/mikhailbardash/.rvm/gems/ruby-2.2.0/gems/mixlib-shellout-2.2.7/lib/mixlib/shellout/unix.rb:338: warning: Insecure world writable dir /Users/mikhailbardash/Documents/work in PATH, mode 040777
+I, [2017-01-19T23:06:11.502399 #82180]  INFO -- default-ubuntu-1204: [0m[1maws_autoscaling_group.example: Destroying...[21m[0m
+I, [2017-01-19T23:06:21.502671 #82180]  INFO -- default-ubuntu-1204: [0m[1maws_autoscaling_group.example: Still destroying... (10s elapsed)[21m[0m
+I, [2017-01-19T23:06:31.503861 #82180]  INFO -- default-ubuntu-1204: [0m[1maws_autoscaling_group.example: Still destroying... (20s elapsed)[21m[0m
+I, [2017-01-19T23:06:41.504115 #82180]  INFO -- default-ubuntu-1204: [0m[1maws_autoscaling_group.example: Still destroying... (30s elapsed)[21m[0m
+I, [2017-01-19T23:06:51.505728 #82180]  INFO -- default-ubuntu-1204: [0m[1maws_autoscaling_group.example: Still destroying... (40s elapsed)[21m[0m
+I, [2017-01-19T23:07:01.506170 #82180]  INFO -- default-ubuntu-1204: [0m[1maws_autoscaling_group.example: Still destroying... (50s elapsed)[21m[0m
+I, [2017-01-19T23:07:11.507711 #82180]  INFO -- default-ubuntu-1204: [0m[1maws_autoscaling_group.example: Still destroying... (1m0s elapsed)[21m[0m
+I, [2017-01-19T23:07:21.508079 #82180]  INFO -- default-ubuntu-1204: [0m[1maws_autoscaling_group.example: Still destroying... (1m10s elapsed)[21m[0m
+I, [2017-01-19T23:07:31.508621 #82180]  INFO -- default-ubuntu-1204: [0m[1maws_autoscaling_group.example: Still destroying... (1m20s elapsed)[21m[0m
+I, [2017-01-19T23:07:41.510066 #82180]  INFO -- default-ubuntu-1204: [0m[1maws_autoscaling_group.example: Still destroying... (1m30s elapsed)[21m[0m
+I, [2017-01-19T23:07:51.511349 #82180]  INFO -- default-ubuntu-1204: [0m[1maws_autoscaling_group.example: Still destroying... (1m40s elapsed)[21m[0m
+I, [2017-01-19T23:08:01.511760 #82180]  INFO -- default-ubuntu-1204: [0m[1maws_autoscaling_group.example: Still destroying... (1m50s elapsed)[21m[0m
+I, [2017-01-19T23:08:11.512897 #82180]  INFO -- default-ubuntu-1204: [0m[1maws_autoscaling_group.example: Still destroying... (2m0s elapsed)[21m[0m
+I, [2017-01-19T23:08:21.514438 #82180]  INFO -- default-ubuntu-1204: [0m[1maws_autoscaling_group.example: Still destroying... (2m10s elapsed)[21m[0m
+I, [2017-01-19T23:08:31.514839 #82180]  INFO -- default-ubuntu-1204: [0m[1maws_autoscaling_group.example: Still destroying... (2m20s elapsed)[21m[0m
+I, [2017-01-19T23:08:41.515309 #82180]  INFO -- default-ubuntu-1204: [0m[1maws_autoscaling_group.example: Still destroying... (2m30s elapsed)[21m[0m
+I, [2017-01-19T23:08:50.931099 #82180]  INFO -- default-ubuntu-1204: [0m[1maws_autoscaling_group.example: Destruction complete[21m[0m
+I, [2017-01-19T23:08:50.933825 #82180]  INFO -- default-ubuntu-1204: [0m[1maws_elb.example: Destroying...[21m[0m
+I, [2017-01-19T23:08:51.338558 #82180]  INFO -- default-ubuntu-1204: [0m[1maws_elb.example: Destruction complete[21m[0m
+I, [2017-01-19T23:08:51.341037 #82180]  INFO -- default-ubuntu-1204: [0m[1maws_security_group.elb: Destroying...[21m[0m
+I, [2017-01-19T23:09:01.342535 #82180]  INFO -- default-ubuntu-1204: [0m[1maws_security_group.elb: Still destroying... (10s elapsed)[21m[0m
+I, [2017-01-19T23:09:11.342966 #82180]  INFO -- default-ubuntu-1204: [0m[1maws_security_group.elb: Still destroying... (20s elapsed)[21m[0m
+I, [2017-01-19T23:09:21.343627 #82180]  INFO -- default-ubuntu-1204: [0m[1maws_security_group.elb: Still destroying... (30s elapsed)[21m[0m
+I, [2017-01-19T23:09:31.344884 #82180]  INFO -- default-ubuntu-1204: [0m[1maws_security_group.elb: Still destroying... (40s elapsed)[21m[0m
+I, [2017-01-19T23:09:39.937958 #82180]  INFO -- default-ubuntu-1204: [0m[1maws_security_group.elb: Destruction complete[21m[0m
+I, [2017-01-19T23:09:39.944693 #82180]  INFO -- default-ubuntu-1204: [0m[1maws_launch_configuration.example: Destroying...[21m[0m
+I, [2017-01-19T23:09:40.253107 #82180]  INFO -- default-ubuntu-1204: [0m[1maws_launch_configuration.example: Destruction complete[21m[0m
+I, [2017-01-19T23:09:40.255356 #82180]  INFO -- default-ubuntu-1204: [0m[1maws_security_group.instance: Destroying...[21m[0m
+I, [2017-01-19T23:09:41.158529 #82180]  INFO -- default-ubuntu-1204: [0m[1maws_security_group.instance: Destruction complete[21m[0m
+I, [2017-01-19T23:09:41.173726 #82180]  INFO -- default-ubuntu-1204: [0m[1m[32m
+I, [2017-01-19T23:09:41.173862 #82180]  INFO -- default-ubuntu-1204: Apply complete! Resources: 0 added, 0 changed, 5 destroyed.[0m
+I, [2017-01-19T23:09:41.198704 #82180]  INFO -- default-ubuntu-1204: Finished destroying <default-ubuntu-1204> (3m32.83s).

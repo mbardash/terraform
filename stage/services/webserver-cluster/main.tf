@@ -1,7 +1,7 @@
 #AWS Credentials and region
 provider "aws" {
-#	access_key = "${var.aws_access_key}"
-#	secret_key = "${var.aws_secret_key}"
+	access_key = "${var.aws_access_key}"
+	secret_key = "${var.aws_secret_key}"
 	region     = "${var.region}"
 }
 
@@ -47,6 +47,13 @@ resource "aws_security_group" "instance" {
   ingress {
     from_port   = "${var.server_port}"
     to_port     = "${var.server_port}"
+    protocol    = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+
+   ingress {
+    from_port   = "22"
+    to_port     = "22"
     protocol    = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
   }

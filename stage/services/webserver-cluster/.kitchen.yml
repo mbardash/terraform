@@ -1,0 +1,30 @@
+---
+driver:
+  name: terraform
+
+provisioner:
+  name: terraform
+  variable_files: terraform.tfvars
+
+transport:
+  name: ssh
+  ssh_key: ~/.ssh/gaea.pem
+
+platforms:
+  - name: ubuntu-12.04
+
+suites:
+  - name: default
+    run_list:
+      - recipe[git::default]
+    attributes:
+
+verifier:
+  name: terraform
+  format: doc
+  groups:
+  - name: default
+    tests:
+      - security_groups
+    hostnames: aws_hostname
+    username: centos
