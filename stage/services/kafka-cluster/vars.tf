@@ -15,12 +15,12 @@ variable "name"                   {
 }
 
 variable "vpc_id"                 {
-	default = "vpc-34f97352"
+	default = "vpc-988e1ffe"
 
 }
 
 variable "public_subnet_id"             {
-	default = "subnet-06ffcf4f"
+	default = "subnet-43b78b0a"
 	description = "The public subnet id"
 }
 

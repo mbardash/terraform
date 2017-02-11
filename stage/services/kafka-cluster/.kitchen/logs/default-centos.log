@@ -1,139 +1,140 @@
-I, [2017-01-24T07:54:25.369167 #4974]  INFO -- default-centos: -----> Destroying <default-centos>...
-I, [2017-01-24T07:54:25.437754 #4974]  INFO -- default-centos: [0m[0m
-I, [2017-01-24T07:54:25.437971 #4974]  INFO -- default-centos: module.kafka.aws_instance.kafka:
-I, [2017-01-24T07:54:25.438010 #4974]  INFO -- default-centos:   id = i-0b29c3a2cf84b622e
-I, [2017-01-24T07:54:25.438153 #4974]  INFO -- default-centos:   ami = ami-6d1c2007
-I, [2017-01-24T07:54:25.438194 #4974]  INFO -- default-centos:   associate_public_ip_address = true
-I, [2017-01-24T07:54:25.438347 #4974]  INFO -- default-centos:   availability_zone = us-east-1a
-I, [2017-01-24T07:54:25.438379 #4974]  INFO -- default-centos:   disable_api_termination = false
-I, [2017-01-24T07:54:25.438415 #4974]  INFO -- default-centos:   ebs_block_device.# = 0
-I, [2017-01-24T07:54:25.438484 #4974]  INFO -- default-centos:   ebs_optimized = false
-I, [2017-01-24T07:54:25.438517 #4974]  INFO -- default-centos:   ephemeral_block_device.# = 0
-I, [2017-01-24T07:54:25.438546 #4974]  INFO -- default-centos:   iam_instance_profile = 
-I, [2017-01-24T07:54:25.438851 #4974]  INFO -- default-centos:   instance_state = running
-I, [2017-01-24T07:54:25.438886 #4974]  INFO -- default-centos:   instance_type = t2.micro
-I, [2017-01-24T07:54:25.438911 #4974]  INFO -- default-centos:   key_name = gaea
-I, [2017-01-24T07:54:25.438968 #4974]  INFO -- default-centos:   monitoring = false
-I, [2017-01-24T07:54:25.439000 #4974]  INFO -- default-centos:   network_interface_id = eni-eea7660f
-I, [2017-01-24T07:54:25.439092 #4974]  INFO -- default-centos:   private_dns = ip-10-0-1-101.ec2.internal
-I, [2017-01-24T07:54:25.439124 #4974]  INFO -- default-centos:   private_ip = 10.0.1.101
-I, [2017-01-24T07:54:25.439149 #4974]  INFO -- default-centos:   public_dns = ec2-52-201-253-251.compute-1.amazonaws.com
-I, [2017-01-24T07:54:25.439344 #4974]  INFO -- default-centos:   public_ip = 52.201.253.251
-I, [2017-01-24T07:54:25.439376 #4974]  INFO -- default-centos:   root_block_device.# = 1
-I, [2017-01-24T07:54:25.439445 #4974]  INFO -- default-centos:   root_block_device.0.delete_on_termination = false
-I, [2017-01-24T07:54:25.439470 #4974]  INFO -- default-centos:   root_block_device.0.iops = 0
-I, [2017-01-24T07:54:25.439496 #4974]  INFO -- default-centos:   root_block_device.0.volume_size = 8
-I, [2017-01-24T07:54:25.439521 #4974]  INFO -- default-centos:   root_block_device.0.volume_type = standard
-I, [2017-01-24T07:54:25.439545 #4974]  INFO -- default-centos:   security_groups.# = 0
-I, [2017-01-24T07:54:25.439750 #4974]  INFO -- default-centos:   source_dest_check = true
-I, [2017-01-24T07:54:25.439780 #4974]  INFO -- default-centos:   subnet_id = subnet-1474435d
-I, [2017-01-24T07:54:25.439805 #4974]  INFO -- default-centos:   tags.% = 1
-I, [2017-01-24T07:54:25.439830 #4974]  INFO -- default-centos:   tags.Name = kafka-kafka
-I, [2017-01-24T07:54:25.439854 #4974]  INFO -- default-centos:   tenancy = default
-I, [2017-01-24T07:54:25.439900 #4974]  INFO -- default-centos:   vpc_security_group_ids.# = 1
-I, [2017-01-24T07:54:25.439927 #4974]  INFO -- default-centos:   vpc_security_group_ids.2614823510 = sg-e6c06c9a
-I, [2017-01-24T07:54:25.440118 #4974]  INFO -- default-centos: module.kafka.aws_security_group.kafka:
-I, [2017-01-24T07:54:25.440172 #4974]  INFO -- default-centos:   id = sg-e6c06c9a
-I, [2017-01-24T07:54:25.440198 #4974]  INFO -- default-centos:   description = Kafka security group
-I, [2017-01-24T07:54:25.440222 #4974]  INFO -- default-centos:   egress.# = 1
-I, [2017-01-24T07:54:25.440332 #4974]  INFO -- default-centos:   egress.482069346.cidr_blocks.# = 1
-I, [2017-01-24T07:54:25.440469 #4974]  INFO -- default-centos:   egress.482069346.cidr_blocks.0 = 0.0.0.0/0
-I, [2017-01-24T07:54:25.440498 #4974]  INFO -- default-centos:   egress.482069346.from_port = 0
-I, [2017-01-24T07:54:25.440523 #4974]  INFO -- default-centos:   egress.482069346.prefix_list_ids.# = 0
-I, [2017-01-24T07:54:25.440547 #4974]  INFO -- default-centos:   egress.482069346.protocol = -1
-I, [2017-01-24T07:54:25.440571 #4974]  INFO -- default-centos:   egress.482069346.security_groups.# = 0
-I, [2017-01-24T07:54:25.440759 #4974]  INFO -- default-centos:   egress.482069346.self = false
-I, [2017-01-24T07:54:25.440795 #4974]  INFO -- default-centos:   egress.482069346.to_port = 0
-I, [2017-01-24T07:54:25.440930 #4974]  INFO -- default-centos:   ingress.# = 2
-I, [2017-01-24T07:54:25.440970 #4974]  INFO -- default-centos:   ingress.2541437006.cidr_blocks.# = 1
-I, [2017-01-24T07:54:25.441221 #4974]  INFO -- default-centos:   ingress.2541437006.cidr_blocks.0 = 0.0.0.0/0
-I, [2017-01-24T07:54:25.441260 #4974]  INFO -- default-centos:   ingress.2541437006.from_port = 22
-I, [2017-01-24T07:54:25.441291 #4974]  INFO -- default-centos:   ingress.2541437006.protocol = tcp
-I, [2017-01-24T07:54:25.441320 #4974]  INFO -- default-centos:   ingress.2541437006.security_groups.# = 0
-I, [2017-01-24T07:54:25.441348 #4974]  INFO -- default-centos:   ingress.2541437006.self = false
-I, [2017-01-24T07:54:25.441394 #4974]  INFO -- default-centos:   ingress.2541437006.to_port = 22
-I, [2017-01-24T07:54:25.441604 #4974]  INFO -- default-centos:   ingress.3483629482.cidr_blocks.# = 1
-I, [2017-01-24T07:54:25.441676 #4974]  INFO -- default-centos:   ingress.3483629482.cidr_blocks.0 = 0.0.0.0/0
-I, [2017-01-24T07:54:25.441708 #4974]  INFO -- default-centos:   ingress.3483629482.from_port = 0
-I, [2017-01-24T07:54:25.441776 #4974]  INFO -- default-centos:   ingress.3483629482.protocol = tcp
-I, [2017-01-24T07:54:25.441934 #4974]  INFO -- default-centos:   ingress.3483629482.security_groups.# = 0
-I, [2017-01-24T07:54:25.441976 #4974]  INFO -- default-centos:   ingress.3483629482.self = false
-I, [2017-01-24T07:54:25.442011 #4974]  INFO -- default-centos:   ingress.3483629482.to_port = 0
-I, [2017-01-24T07:54:25.442042 #4974]  INFO -- default-centos:   name = kafka-kafka
-I, [2017-01-24T07:54:25.442186 #4974]  INFO -- default-centos:   owner_id = 978652754942
-I, [2017-01-24T07:54:25.442226 #4974]  INFO -- default-centos:   tags.% = 1
-I, [2017-01-24T07:54:25.442269 #4974]  INFO -- default-centos:   tags.Name = kafka-kafka
-I, [2017-01-24T07:54:25.442310 #4974]  INFO -- default-centos:   vpc_id = vpc-03199665
-I, [2017-01-24T07:54:25.442345 #4974]  INFO -- default-centos: [0m
-I, [2017-01-24T07:54:25.442380 #4974]  INFO -- default-centos: 
-I, [2017-01-24T07:54:25.442414 #4974]  INFO -- default-centos: Outputs:
-I, [2017-01-24T07:54:25.442445 #4974]  INFO -- default-centos: 
-I, [2017-01-24T07:54:25.442670 #4974]  INFO -- default-centos: kafka_private_ip = 10.0.1.101
-I, [2017-01-24T07:54:25.442766 #4974]  INFO -- default-centos: kafka_public_dns = ec2-52-201-253-251.compute-1.amazonaws.com
-I, [2017-01-24T07:54:25.442804 #4974]  INFO -- default-centos: kafka_public_ip = 52.201.253.251
-I, [2017-01-24T07:54:25.442872 #4974]  INFO -- default-centos: kafka_user = ubuntu[0m
-I, [2017-01-24T07:54:25.588324 #4974]  INFO -- default-centos: Get: file:///Users/mikhailbardash/Documents/work/terraform/stage/services/kafka-cluster/modules (update)
-I, [2017-01-24T07:54:25.799078 #4974]  INFO -- default-centos: Refreshing Terraform state in-memory prior to plan...
-I, [2017-01-24T07:54:25.799165 #4974]  INFO -- default-centos: The refreshed state will be used to calculate this plan, but
-I, [2017-01-24T07:54:25.799186 #4974]  INFO -- default-centos: will not be persisted to local or remote state storage.
-I, [2017-01-24T07:54:25.799202 #4974]  INFO -- default-centos: 
-I, [2017-01-24T07:54:26.452875 #4974]  INFO -- default-centos: [0m[1mmodule.kafka.aws_security_group.kafka: Refreshing state... (ID: sg-e6c06c9a)[0m
-I, [2017-01-24T07:54:26.729983 #4974]  INFO -- default-centos: [0m[1mmodule.kafka.aws_instance.kafka: Refreshing state... (ID: i-0b29c3a2cf84b622e)[0m
-I, [2017-01-24T07:54:27.802954 #4974]  INFO -- default-centos: 
-I, [2017-01-24T07:54:27.848092 #4974]  INFO -- default-centos: The Terraform execution plan has been generated and is shown below.
-I, [2017-01-24T07:54:27.848281 #4974]  INFO -- default-centos: Resources are shown in alphabetical order for quick scanning. Green resources
-I, [2017-01-24T07:54:27.848551 #4974]  INFO -- default-centos: will be created (or destroyed and then created if an existing resource
-I, [2017-01-24T07:54:27.848982 #4974]  INFO -- default-centos: exists), yellow resources are being changed in-place, and red resources
-I, [2017-01-24T07:54:27.849060 #4974]  INFO -- default-centos: will be destroyed. Cyan entries are data sources to be read.
-I, [2017-01-24T07:54:27.849101 #4974]  INFO -- default-centos: 
-I, [2017-01-24T07:54:27.849137 #4974]  INFO -- default-centos: Your plan was also saved to the path below. Call the "apply" subcommand
-I, [2017-01-24T07:54:27.849175 #4974]  INFO -- default-centos: with this plan file and Terraform will exactly execute this execution
-I, [2017-01-24T07:54:27.849206 #4974]  INFO -- default-centos: plan.
-I, [2017-01-24T07:54:27.849234 #4974]  INFO -- default-centos: 
-I, [2017-01-24T07:54:27.849460 #4974]  INFO -- default-centos: Path: /Users/mikhailbardash/Documents/work/terraform/stage/services/kafka-cluster/.kitchen/kitchen-terraform/default-centos/terraform.tfplan
-I, [2017-01-24T07:54:27.849510 #4974]  INFO -- default-centos: 
-I, [2017-01-24T07:54:27.849543 #4974]  INFO -- default-centos: [31m- module.kafka.aws_instance.kafka
-I, [2017-01-24T07:54:27.849572 #4974]  INFO -- default-centos: [0m[0m
-I, [2017-01-24T07:54:27.849601 #4974]  INFO -- default-centos: [0m[31m- module.kafka.aws_security_group.kafka
-I, [2017-01-24T07:54:27.849948 #4974]  INFO -- default-centos: [0m[0m
-I, [2017-01-24T07:54:27.849996 #4974]  INFO -- default-centos: [0m
-I, [2017-01-24T07:54:27.850037 #4974]  INFO -- default-centos: [0m[1mPlan:[0m 0 to add, 0 to change, 2 to destroy.[0m
-I, [2017-01-24T07:54:28.719140 #4974]  INFO -- default-centos: [0m[1mmodule.kafka.aws_instance.kafka: Destroying...[21m[0m
-I, [2017-01-24T07:54:38.719626 #4974]  INFO -- default-centos: [0m[1mmodule.kafka.aws_instance.kafka: Still destroying... (10s elapsed)[21m[0m
-I, [2017-01-24T07:54:48.719992 #4974]  INFO -- default-centos: [0m[1mmodule.kafka.aws_instance.kafka: Still destroying... (20s elapsed)[21m[0m
-I, [2017-01-24T07:54:58.720258 #4974]  INFO -- default-centos: [0m[1mmodule.kafka.aws_instance.kafka: Still destroying... (30s elapsed)[21m[0m
-I, [2017-01-24T07:55:08.721723 #4974]  INFO -- default-centos: [0m[1mmodule.kafka.aws_instance.kafka: Still destroying... (40s elapsed)[21m[0m
-I, [2017-01-24T07:55:18.723111 #4974]  INFO -- default-centos: [0m[1mmodule.kafka.aws_instance.kafka: Still destroying... (50s elapsed)[21m[0m
-I, [2017-01-24T07:55:28.723334 #4974]  INFO -- default-centos: [0m[1mmodule.kafka.aws_instance.kafka: Still destroying... (1m0s elapsed)[21m[0m
-I, [2017-01-24T07:55:35.405269 #4974]  INFO -- default-centos: [0m[1mmodule.kafka.aws_instance.kafka: Destruction complete[21m[0m
-I, [2017-01-24T07:55:35.407531 #4974]  INFO -- default-centos: [0m[1mmodule.kafka.aws_security_group.kafka: Destroying...[21m[0m
-I, [2017-01-24T07:55:36.089395 #4974]  INFO -- default-centos: [0m[1mmodule.kafka.aws_security_group.kafka: Destruction complete[21m[0m
-I, [2017-01-24T07:55:36.096040 #4974]  INFO -- default-centos: [0m[1m[32m
-I, [2017-01-24T07:55:36.096254 #4974]  INFO -- default-centos: Apply complete! Resources: 0 added, 0 changed, 2 destroyed.[0m
-I, [2017-01-24T07:55:36.096306 #4974]  INFO -- default-centos: [0m[1m[32m
-I, [2017-01-24T07:55:36.096351 #4974]  INFO -- default-centos: Outputs:
-I, [2017-01-24T07:55:36.096505 #4974]  INFO -- default-centos: 
-I, [2017-01-24T07:55:36.096552 #4974]  INFO -- default-centos: kafka_private_ip = 10.0.1.101
-I, [2017-01-24T07:55:36.096597 #4974]  INFO -- default-centos: kafka_public_dns = ec2-52-201-253-251.compute-1.amazonaws.com
-I, [2017-01-24T07:55:36.097017 #4974]  INFO -- default-centos: kafka_public_ip = 52.201.253.251
-I, [2017-01-24T07:55:36.097071 #4974]  INFO -- default-centos: kafka_user = ubuntu[0m
-I, [2017-01-24T07:55:36.097106 #4974]  INFO -- default-centos: [0m[1m[33m
-I, [2017-01-24T07:55:36.097142 #4974]  INFO -- default-centos: Experimental feature failure! Please report a bug.
-I, [2017-01-24T07:55:36.097177 #4974]  INFO -- default-centos: 
-I, [2017-01-24T07:55:36.097233 #4974]  INFO -- default-centos: This is not an error. Your Terraform operation completed successfully.
-I, [2017-01-24T07:55:36.097542 #4974]  INFO -- default-centos: Your real infrastructure is unaffected by this message.
-I, [2017-01-24T07:55:36.097583 #4974]  INFO -- default-centos: 
-I, [2017-01-24T07:55:36.097613 #4974]  INFO -- default-centos: [0m[33mWhile running, Terraform sometimes tests experimental features in the
-I, [2017-01-24T07:55:36.097744 #4974]  INFO -- default-centos: background. These features cannot affect real state and never touch
-I, [2017-01-24T07:55:36.097785 #4974]  INFO -- default-centos: real infrastructure. If the features work properly, you see nothing.
-I, [2017-01-24T07:55:36.097897 #4974]  INFO -- default-centos: If the features fail, this message appears.
-I, [2017-01-24T07:55:36.097937 #4974]  INFO -- default-centos: 
-I, [2017-01-24T07:55:36.098035 #4974]  INFO -- default-centos: You can report an issue at: https://github.com/hashicorp/terraform/issues
-I, [2017-01-24T07:55:36.098077 #4974]  INFO -- default-centos: 
-I, [2017-01-24T07:55:36.098173 #4974]  INFO -- default-centos: The failure was written to "terraform-error-1485262536.log". Please
-I, [2017-01-24T07:55:36.098307 #4974]  INFO -- default-centos: double check this file contains no sensitive information and report
-I, [2017-01-24T07:55:36.098349 #4974]  INFO -- default-centos: it with your issue.
-I, [2017-01-24T07:55:36.098382 #4974]  INFO -- default-centos: 
-I, [2017-01-24T07:55:36.098500 #4974]  INFO -- default-centos: This is not an error. Your terraform operation completed successfully
-I, [2017-01-24T07:55:36.098593 #4974]  INFO -- default-centos: and your real infrastructure is unaffected by this message.[0m
-I, [2017-01-24T07:55:36.117108 #4974]  INFO -- default-centos: Finished destroying <default-centos> (1m10.75s).
+I, [2017-02-01T08:04:42.590153 #65175]  INFO -- default-centos: -----> Destroying <default-centos>...
+I, [2017-02-01T08:04:42.636773 #65175]  INFO -- default-centos: [0m[0m
+I, [2017-02-01T08:04:42.636901 #65175]  INFO -- default-centos: module.kafka.aws_instance.kafka:
+I, [2017-02-01T08:04:42.637128 #65175]  INFO -- default-centos:   id = i-06d7f4cb008cc2545
+I, [2017-02-01T08:04:42.637171 #65175]  INFO -- default-centos:   ami = ami-6d1c2007
+I, [2017-02-01T08:04:42.637210 #65175]  INFO -- default-centos:   associate_public_ip_address = true
+I, [2017-02-01T08:04:42.637246 #65175]  INFO -- default-centos:   availability_zone = us-east-1a
+I, [2017-02-01T08:04:42.637400 #65175]  INFO -- default-centos:   disable_api_termination = false
+I, [2017-02-01T08:04:42.637437 #65175]  INFO -- default-centos:   ebs_block_device.# = 0
+I, [2017-02-01T08:04:42.637470 #65175]  INFO -- default-centos:   ebs_optimized = false
+I, [2017-02-01T08:04:42.637506 #65175]  INFO -- default-centos:   ephemeral_block_device.# = 0
+I, [2017-02-01T08:04:42.637669 #65175]  INFO -- default-centos:   iam_instance_profile = 
+I, [2017-02-01T08:04:42.637740 #65175]  INFO -- default-centos:   instance_state = running
+I, [2017-02-01T08:04:42.638084 #65175]  INFO -- default-centos:   instance_type = t2.micro
+I, [2017-02-01T08:04:42.638120 #65175]  INFO -- default-centos:   key_name = gaea
+I, [2017-02-01T08:04:42.638156 #65175]  INFO -- default-centos:   monitoring = false
+I, [2017-02-01T08:04:42.638186 #65175]  INFO -- default-centos:   network_interface_id = eni-f94b2e18
+I, [2017-02-01T08:04:42.638241 #65175]  INFO -- default-centos:   private_dns = ip-10-0-1-144.ec2.internal
+I, [2017-02-01T08:04:42.638268 #65175]  INFO -- default-centos:   private_ip = 10.0.1.144
+I, [2017-02-01T08:04:42.638307 #65175]  INFO -- default-centos:   public_dns = ec2-52-90-251-103.compute-1.amazonaws.com
+I, [2017-02-01T08:04:42.638397 #65175]  INFO -- default-centos:   public_ip = 52.90.251.103
+I, [2017-02-01T08:04:42.638424 #65175]  INFO -- default-centos:   root_block_device.# = 1
+I, [2017-02-01T08:04:42.638449 #65175]  INFO -- default-centos:   root_block_device.0.delete_on_termination = false
+I, [2017-02-01T08:04:42.638713 #65175]  INFO -- default-centos:   root_block_device.0.iops = 0
+I, [2017-02-01T08:04:42.638748 #65175]  INFO -- default-centos:   root_block_device.0.volume_size = 8
+I, [2017-02-01T08:04:42.638775 #65175]  INFO -- default-centos:   root_block_device.0.volume_type = standard
+I, [2017-02-01T08:04:42.638798 #65175]  INFO -- default-centos:   security_groups.# = 0
+I, [2017-02-01T08:04:42.638827 #65175]  INFO -- default-centos:   source_dest_check = true
+I, [2017-02-01T08:04:42.638855 #65175]  INFO -- default-centos:   subnet_id = subnet-43b78b0a
+I, [2017-02-01T08:04:42.638898 #65175]  INFO -- default-centos:   tags.% = 1
+I, [2017-02-01T08:04:42.638923 #65175]  INFO -- default-centos:   tags.Name = kafka-kafka
+I, [2017-02-01T08:04:42.638947 #65175]  INFO -- default-centos:   tenancy = default
+I, [2017-02-01T08:04:42.638971 #65175]  INFO -- default-centos:   vpc_security_group_ids.# = 1
+I, [2017-02-01T08:04:42.639241 #65175]  INFO -- default-centos:   vpc_security_group_ids.1165798146 = sg-0a65ea76
+I, [2017-02-01T08:04:42.639275 #65175]  INFO -- default-centos: module.kafka.aws_security_group.kafka:
+I, [2017-02-01T08:04:42.639301 #65175]  INFO -- default-centos:   id = sg-0a65ea76
+I, [2017-02-01T08:04:42.639326 #65175]  INFO -- default-centos:   description = Kafka security group
+I, [2017-02-01T08:04:42.639351 #65175]  INFO -- default-centos:   egress.# = 1
+I, [2017-02-01T08:04:42.639394 #65175]  INFO -- default-centos:   egress.482069346.cidr_blocks.# = 1
+I, [2017-02-01T08:04:42.639421 #65175]  INFO -- default-centos:   egress.482069346.cidr_blocks.0 = 0.0.0.0/0
+I, [2017-02-01T08:04:42.639493 #65175]  INFO -- default-centos:   egress.482069346.from_port = 0
+I, [2017-02-01T08:04:42.639773 #65175]  INFO -- default-centos:   egress.482069346.prefix_list_ids.# = 0
+I, [2017-02-01T08:04:42.639822 #65175]  INFO -- default-centos:   egress.482069346.protocol = -1
+I, [2017-02-01T08:04:42.639862 #65175]  INFO -- default-centos:   egress.482069346.security_groups.# = 0
+I, [2017-02-01T08:04:42.639928 #65175]  INFO -- default-centos:   egress.482069346.self = false
+I, [2017-02-01T08:04:42.640011 #65175]  INFO -- default-centos:   egress.482069346.to_port = 0
+I, [2017-02-01T08:04:42.640103 #65175]  INFO -- default-centos:   ingress.# = 2
+I, [2017-02-01T08:04:42.640148 #65175]  INFO -- default-centos:   ingress.2541437006.cidr_blocks.# = 1
+I, [2017-02-01T08:04:42.640177 #65175]  INFO -- default-centos:   ingress.2541437006.cidr_blocks.0 = 0.0.0.0/0
+I, [2017-02-01T08:04:42.640482 #65175]  INFO -- default-centos:   ingress.2541437006.from_port = 22
+I, [2017-02-01T08:04:42.640521 #65175]  INFO -- default-centos:   ingress.2541437006.protocol = tcp
+I, [2017-02-01T08:04:42.640584 #65175]  INFO -- default-centos:   ingress.2541437006.security_groups.# = 0
+I, [2017-02-01T08:04:42.640615 #65175]  INFO -- default-centos:   ingress.2541437006.self = false
+I, [2017-02-01T08:04:42.640640 #65175]  INFO -- default-centos:   ingress.2541437006.to_port = 22
+I, [2017-02-01T08:04:42.640699 #65175]  INFO -- default-centos:   ingress.3483629482.cidr_blocks.# = 1
+I, [2017-02-01T08:04:42.640736 #65175]  INFO -- default-centos:   ingress.3483629482.cidr_blocks.0 = 0.0.0.0/0
+I, [2017-02-01T08:04:42.640767 #65175]  INFO -- default-centos:   ingress.3483629482.from_port = 0
+I, [2017-02-01T08:04:42.641050 #65175]  INFO -- default-centos:   ingress.3483629482.protocol = tcp
+I, [2017-02-01T08:04:42.641086 #65175]  INFO -- default-centos:   ingress.3483629482.security_groups.# = 0
+I, [2017-02-01T08:04:42.641112 #65175]  INFO -- default-centos:   ingress.3483629482.self = false
+I, [2017-02-01T08:04:42.641128 #65175]  INFO -- default-centos:   ingress.3483629482.to_port = 0
+I, [2017-02-01T08:04:42.641143 #65175]  INFO -- default-centos:   name = kafka-kafka
+I, [2017-02-01T08:04:42.641157 #65175]  INFO -- default-centos:   owner_id = 978652754942
+I, [2017-02-01T08:04:42.641172 #65175]  INFO -- default-centos:   tags.% = 1
+I, [2017-02-01T08:04:42.641190 #65175]  INFO -- default-centos:   tags.Name = kafka-kafka
+I, [2017-02-01T08:04:42.641208 #65175]  INFO -- default-centos:   vpc_id = vpc-988e1ffe
+I, [2017-02-01T08:04:42.641222 #65175]  INFO -- default-centos: [0m
+I, [2017-02-01T08:04:42.641242 #65175]  INFO -- default-centos: 
+I, [2017-02-01T08:04:42.641258 #65175]  INFO -- default-centos: Outputs:
+I, [2017-02-01T08:04:42.641271 #65175]  INFO -- default-centos: 
+I, [2017-02-01T08:04:42.641285 #65175]  INFO -- default-centos: kafka_private_ip = 10.0.1.144
+I, [2017-02-01T08:04:42.642367 #65175]  INFO -- default-centos: kafka_public_dns = ec2-52-90-251-103.compute-1.amazonaws.com
+I, [2017-02-01T08:04:42.642425 #65175]  INFO -- default-centos: kafka_public_ip = 52.90.251.103
+I, [2017-02-01T08:04:42.642451 #65175]  INFO -- default-centos: kafka_user = ubuntu[0m
+I, [2017-02-01T08:04:42.825842 #65175]  INFO -- default-centos: Get: file:///Users/mikhailbardash/Documents/work/terraform/stage/services/kafka-cluster/modules (update)
+I, [2017-02-01T08:04:43.023875 #65175]  INFO -- default-centos: Refreshing Terraform state in-memory prior to plan...
+I, [2017-02-01T08:04:43.024017 #65175]  INFO -- default-centos: The refreshed state will be used to calculate this plan, but
+I, [2017-02-01T08:04:43.024040 #65175]  INFO -- default-centos: will not be persisted to local or remote state storage.
+I, [2017-02-01T08:04:43.024057 #65175]  INFO -- default-centos: 
+I, [2017-02-01T08:04:43.694415 #65175]  INFO -- default-centos: [0m[1mmodule.kafka.aws_security_group.kafka: Refreshing state... (ID: sg-0a65ea76)[0m
+I, [2017-02-01T08:04:44.579495 #65175]  INFO -- default-centos: [0m[1mmodule.kafka.aws_instance.kafka: Refreshing state... (ID: i-06d7f4cb008cc2545)[0m
+I, [2017-02-01T08:04:46.244665 #65175]  INFO -- default-centos: 
+I, [2017-02-01T08:04:46.304708 #65175]  INFO -- default-centos: The Terraform execution plan has been generated and is shown below.
+I, [2017-02-01T08:04:46.304873 #65175]  INFO -- default-centos: Resources are shown in alphabetical order for quick scanning. Green resources
+I, [2017-02-01T08:04:46.304942 #65175]  INFO -- default-centos: will be created (or destroyed and then created if an existing resource
+I, [2017-02-01T08:04:46.305319 #65175]  INFO -- default-centos: exists), yellow resources are being changed in-place, and red resources
+I, [2017-02-01T08:04:46.305411 #65175]  INFO -- default-centos: will be destroyed. Cyan entries are data sources to be read.
+I, [2017-02-01T08:04:46.305453 #65175]  INFO -- default-centos: 
+I, [2017-02-01T08:04:46.305495 #65175]  INFO -- default-centos: Your plan was also saved to the path below. Call the "apply" subcommand
+I, [2017-02-01T08:04:46.305656 #65175]  INFO -- default-centos: with this plan file and Terraform will exactly execute this execution
+I, [2017-02-01T08:04:46.305704 #65175]  INFO -- default-centos: plan.
+I, [2017-02-01T08:04:46.305741 #65175]  INFO -- default-centos: 
+I, [2017-02-01T08:04:46.305872 #65175]  INFO -- default-centos: Path: /Users/mikhailbardash/Documents/work/terraform/stage/services/kafka-cluster/.kitchen/kitchen-terraform/default-centos/terraform.tfplan
+I, [2017-02-01T08:04:46.305920 #65175]  INFO -- default-centos: 
+I, [2017-02-01T08:04:46.305958 #65175]  INFO -- default-centos: [31m- module.kafka.aws_instance.kafka
+I, [2017-02-01T08:04:46.305997 #65175]  INFO -- default-centos: [0m[0m
+I, [2017-02-01T08:04:46.306035 #65175]  INFO -- default-centos: [0m[31m- module.kafka.aws_security_group.kafka
+I, [2017-02-01T08:04:46.306070 #65175]  INFO -- default-centos: [0m[0m
+I, [2017-02-01T08:04:46.306367 #65175]  INFO -- default-centos: [0m
+I, [2017-02-01T08:04:46.306410 #65175]  INFO -- default-centos: [0m[1mPlan:[0m 0 to add, 0 to change, 2 to destroy.[0m
+I, [2017-02-01T08:04:47.054709 #65175]  INFO -- default-centos: [0m[1mmodule.kafka.aws_instance.kafka: Destroying...[21m[0m
+I, [2017-02-01T08:04:57.055425 #65175]  INFO -- default-centos: [0m[1mmodule.kafka.aws_instance.kafka: Still destroying... (10s elapsed)[21m[0m
+I, [2017-02-01T08:05:07.055381 #65175]  INFO -- default-centos: [0m[1mmodule.kafka.aws_instance.kafka: Still destroying... (20s elapsed)[21m[0m
+I, [2017-02-01T08:05:17.056760 #65175]  INFO -- default-centos: [0m[1mmodule.kafka.aws_instance.kafka: Still destroying... (30s elapsed)[21m[0m
+I, [2017-02-01T08:05:27.058178 #65175]  INFO -- default-centos: [0m[1mmodule.kafka.aws_instance.kafka: Still destroying... (40s elapsed)[21m[0m
+I, [2017-02-01T08:05:37.059810 #65175]  INFO -- default-centos: [0m[1mmodule.kafka.aws_instance.kafka: Still destroying... (50s elapsed)[21m[0m
+I, [2017-02-01T08:05:47.073304 #65175]  INFO -- default-centos: [0m[1mmodule.kafka.aws_instance.kafka: Still destroying... (1m0s elapsed)[21m[0m
+I, [2017-02-01T08:05:57.065499 #65175]  INFO -- default-centos: [0m[1mmodule.kafka.aws_instance.kafka: Still destroying... (1m10s elapsed)[21m[0m
+I, [2017-02-01T08:05:58.531828 #65175]  INFO -- default-centos: [0m[1mmodule.kafka.aws_instance.kafka: Destruction complete[21m[0m
+I, [2017-02-01T08:05:58.534864 #65175]  INFO -- default-centos: [0m[1mmodule.kafka.aws_security_group.kafka: Destroying...[21m[0m
+I, [2017-02-01T08:05:59.229463 #65175]  INFO -- default-centos: [0m[1mmodule.kafka.aws_security_group.kafka: Destruction complete[21m[0m
+I, [2017-02-01T08:05:59.245840 #65175]  INFO -- default-centos: [0m[1m[32m
+I, [2017-02-01T08:05:59.246013 #65175]  INFO -- default-centos: Apply complete! Resources: 0 added, 0 changed, 2 destroyed.[0m
+I, [2017-02-01T08:05:59.246056 #65175]  INFO -- default-centos: [0m[1m[32m
+I, [2017-02-01T08:05:59.246159 #65175]  INFO -- default-centos: Outputs:
+I, [2017-02-01T08:05:59.246259 #65175]  INFO -- default-centos: 
+I, [2017-02-01T08:05:59.246675 #65175]  INFO -- default-centos: kafka_private_ip = 10.0.1.144
+I, [2017-02-01T08:05:59.246765 #65175]  INFO -- default-centos: kafka_public_dns = ec2-52-90-251-103.compute-1.amazonaws.com
+I, [2017-02-01T08:05:59.246936 #65175]  INFO -- default-centos: kafka_public_ip = 52.90.251.103
+I, [2017-02-01T08:05:59.246989 #65175]  INFO -- default-centos: kafka_user = ubuntu[0m
+I, [2017-02-01T08:05:59.247328 #65175]  INFO -- default-centos: [0m[1m[33m
+I, [2017-02-01T08:05:59.247446 #65175]  INFO -- default-centos: Experimental feature failure! Please report a bug.
+I, [2017-02-01T08:05:59.247511 #65175]  INFO -- default-centos: 
+I, [2017-02-01T08:05:59.247605 #65175]  INFO -- default-centos: This is not an error. Your Terraform operation completed successfully.
+I, [2017-02-01T08:05:59.247698 #65175]  INFO -- default-centos: Your real infrastructure is unaffected by this message.
+I, [2017-02-01T08:05:59.247762 #65175]  INFO -- default-centos: 
+I, [2017-02-01T08:05:59.248273 #65175]  INFO -- default-centos: [0m[33mWhile running, Terraform sometimes tests experimental features in the
+I, [2017-02-01T08:05:59.248642 #65175]  INFO -- default-centos: background. These features cannot affect real state and never touch
+I, [2017-02-01T08:05:59.248692 #65175]  INFO -- default-centos: real infrastructure. If the features work properly, you see nothing.
+I, [2017-02-01T08:05:59.248742 #65175]  INFO -- default-centos: If the features fail, this message appears.
+I, [2017-02-01T08:05:59.248777 #65175]  INFO -- default-centos: 
+I, [2017-02-01T08:05:59.248814 #65175]  INFO -- default-centos: You can report an issue at: https://github.com/hashicorp/terraform/issues
+I, [2017-02-01T08:05:59.248841 #65175]  INFO -- default-centos: 
+I, [2017-02-01T08:05:59.248858 #65175]  INFO -- default-centos: The failure was written to "terraform-error-1485954359.log". Please
+I, [2017-02-01T08:05:59.248874 #65175]  INFO -- default-centos: double check this file contains no sensitive information and report
+I, [2017-02-01T08:05:59.248889 #65175]  INFO -- default-centos: it with your issue.
+I, [2017-02-01T08:05:59.248904 #65175]  INFO -- default-centos: 
+I, [2017-02-01T08:05:59.248918 #65175]  INFO -- default-centos: This is not an error. Your terraform operation completed successfully
+I, [2017-02-01T08:05:59.248933 #65175]  INFO -- default-centos: and your real infrastructure is unaffected by this message.[0m
+I, [2017-02-01T08:05:59.281267 #65175]  INFO -- default-centos: Finished destroying <default-centos> (1m16.68s).

@@ -11,8 +11,4 @@ control 'sshd' do
     it { should be_running}
   end
 
-  describe sshd_config do
-    its( 'Protocol' ) { should eq '2' }
-    its( 'Port' ) { should eq('22') }
-  end
 end
